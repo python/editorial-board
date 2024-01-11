@@ -12,11 +12,11 @@ These updates provide high level information about the Editorial Board's activit
 
 ## Process
 
-The Editorial Board meets monthly on the second Monday at 1:30pm Pacific.
+The Editorial Board's private meetings are monthly on the second Monday at 1:30pm Pacific.
 
-If you have a general request or question, please use Discourse and the Documentation tag.
+If you have a general request or question, please use the [Documentation category in Discourse](https://discuss.python.org/c/documentation/26).
 
-If you need Editorial Board assistance, please file an issue on the repo using the issue templates.
+If you need Editorial Board assistance, please [file an issue on this repo](https://github.com/python/editorial-board/issues/new/choose).
 
 ## Reference
 
