@@ -1,12 +1,22 @@
 # Python Documentation Editorial Board
 
-This repo is a work in progress.
+This repo contains activity updates, process, and planning information for the Python Documentation Editorial Board.
 
 See [PEP 732](https://peps.python.org/pep-0732/).
 
 ## Updates
 
+These updates provide high level information about the Editorial Board's activities.
+
+- [2024-01](updates/2024-01-08-editorial-board-update.md)
+
 ## Process
+
+The Editorial Board meets monthly on the second Monday at 1:30pm Pacific.
+
+If you have a general request or question, please use Discourse and the Documentation tag.
+
+If you need Editorial Board assistance, please file an issue on the repo using the issue templates.
 
 ## Reference
 
@@ -19,4 +29,4 @@ These links give context on the editorial board:
 These links give context on existing documentation landing pages:
 - [CPython Documentation Landing page (docs.python.org)](https://docs.python.org)
 - [PSF (python.org) website landing page](https://python.org)
-- [Documentation Experience presentation - Review navigation of PSF website related to docs](https://docs.google.com/presentation/d/1ujDv8wViPvAMFAtYCRxSKh-CMUlbjcfVYitsqEI2Ios) *Work in Progress*
+- [Documentation Experience presentation - Review navigation of PSF website related to docs](https://docs.google.com/presentation/d/1ujDv8wViPvAMFAtYCRxSKh-CMUlbjcfVYitsqEI2Ios)
