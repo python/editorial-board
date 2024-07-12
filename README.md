@@ -6,7 +6,9 @@ See [PEP 732](https://peps.python.org/pep-0732/).
 
 ## Updates
 
-These updates provide high level information about the Editorial Board's activities.
+We have a "changelog" of decisions: [CHANGELOG.md](CHANGELOG.md).
+
+These updates provide high level information about the Editorial Board's activities:
 
 - [2024-01](updates/2024-01-08-editorial-board-update.md)
 
