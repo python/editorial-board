@@ -4,9 +4,11 @@ This repo contains activity updates, process, and planning information for the P
 
 See [PEP 732](https://peps.python.org/pep-0732/).
 
-## Updates
+## Changelog
 
-We have a "changelog" of decisions: [CHANGELOG.md](CHANGELOG.md).
+We have a "changelog" of decisions: [CHANGELOG.md](CHANGELOG.md). 
+
+## Updates
 
 These updates provide high level information about the Editorial Board's activities:
 
