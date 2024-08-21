@@ -1,13 +1,23 @@
-# Meeting Notes: Python Docs Editorial Board
+---
+author: ["Mariatta"]
+title: "Meeting Minutes: June 03, 2024"
+date: "2024-06-03"
+description: "Meeting Minutes from Python Docs Editorial Board: June 03, 2024."
+summary: "Meeting Minutes from Python Docs Editorial Board: June 03, 2024."
+tags: ["minutes"]
+categories: ["minutes"]
+series: ["Meeting Minutes"]
+ShowToc: false
+TocOpen: false
+---
 
-## June 3, 2024
 
-## Attendees
+### Attendees
 
 Mariatta, Ned, Carol, Joanna, Guido
 
 
-## Old Action Items
+### Old Action Items
 
 Where are we with the action items from April 8?
 
@@ -32,7 +42,7 @@ Where are we with the action items from March 11?
 3. Document our philosophy, explain the different target users and where they can find the docs they need.
 
 
-## Agenda
+### Agenda
 
 1. What action items are we taking from the discussion at the docs dinner?
    * Notes on contributing to docs:

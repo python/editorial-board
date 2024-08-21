@@ -1,0 +1,96 @@
+baseURL: "https://docs.python.org"
+title: Python Docs Editorial Board
+copyright: "© [Python Docs Editorial Board and Contributors](https://github.com/python/editorial-board/graphs/contributors)"
+paginate: 5
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["updates"]
+
+minify:
+  disableXML: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author: Theme PaperMod
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Python Docs Editorial Board"
+    Content: >
+     This site contains activity updates, process, and planning information for the Python Documentation Editorial Board.
+      
+     See [PEP 732](https://peps.python.org/pep-0732/).
+      
+     The Editorial Board's private meetings are monthly on the second Monday at 1:30pm Pacific.
+
+     If you have a general request or question, please use the [Documentation category in Discourse](https://discuss.python.org/c/documentation/26).
+
+     If you need Editorial Board assistance, please [file an issue on this repo](https://github.com/python/editorial-board/issues/new/choose).
+  
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/python/editorial-board"
+    - name: Discord
+      title: Join the Python Docs Community Discord
+      url: "https://discord.gg/nXkJ2JYvCu"
+    - name: rss
+      title: Get Updates by subscribing to our RSS Feed
+      url: "http://localhost:1313/index.xml"
+
+menu:
+  main:
+    - identifier: updates
+      name: Monthly Updates
+      url: /updates
+      weight: 20
+    - identifier: changelog
+      name: Changelog
+      url: /changelog
+      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+
+module:
+  # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
+  # workspace: docsy.work
+  hugoVersion:
+    extended: true
+    min: 0.110.0
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+      disable: false

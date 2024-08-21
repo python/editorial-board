@@ -12,7 +12,7 @@ We have a "changelog" of decisions: [CHANGELOG.md](CHANGELOG.md).
 
 These updates provide high level information about the Editorial Board's activities:
 
-- [2024-01](updates/2024-01-08-editorial-board-update.md)
+- [2024-01](content/updates/2024-01-08-editorial-board-update.md)
 
 ## Process
 
@@ -34,3 +34,6 @@ These links give context on existing documentation landing pages:
 - [CPython Documentation Landing page (docs.python.org)](https://docs.python.org)
 - [PSF (python.org) website landing page](https://python.org)
 - [Documentation Experience presentation - Review navigation of PSF website related to docs](https://docs.google.com/presentation/d/1ujDv8wViPvAMFAtYCRxSKh-CMUlbjcfVYitsqEI2Ios)
+
+
+## 

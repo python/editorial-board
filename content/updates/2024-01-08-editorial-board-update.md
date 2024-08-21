@@ -1,16 +1,27 @@
-# Meeting Notes: Python Docs Editorial Board
+---
+author: ["Carol Willing"]
+title: "Meeting Minutes: January 8, 2024"
+date: "2024-01-08"
+description: "Meeting Minutes from Python Docs Editorial Board: anuary 8, 2024."
+summary: "Meeting Minutes from Python Docs Editorial Board: anuary 8, 2024."
+tags: ["minutes"]
+categories: ["minutes"]
+series: ["Meeting Minutes"]
+ShowToc: false
+TocOpen: false
+---
 
-## January 8, 2024
 
-## Attendees
+
+### Attendees
 
 Carol, Guido, Joanna, Mariatta, Ned
 
-## Agenda
+### Agenda
 
 We discussed these questions and worked to answer them.
 
-### How often will we meet?
+#### How often will we meet?
 
 We will meet monthly on second Monday each month from 1:30-2:30pm Pacific.
 
@@ -18,7 +29,7 @@ We will work asynchronously most of the time.
 
 Next meeting: February 12, 2024
 
-### What are our deliverables about process and decisions?
+#### What are our deliverables about process and decisions?
 
 We will produce:
 
@@ -36,24 +47,24 @@ We will produce:
     * We should limit ourselves to docs.python.org
     * Share recommendations to python.org for changes about making sure on python.org docs will go to docs.python.org. Reduce multiple paths to wiki and doc landing pages other than docs.python.org when refering to "docs"
 
-### Will we start implementing the five-year plan partly outlined in the [Language Summit 2020 presentation](https://pyfound.blogspot.com/2020/04/cpython-documentation-next-5-years.html), or do we need to reassess and set a different direction?
+#### Will we start implementing the five-year plan partly outlined in the [Language Summit 2020 presentation](https://pyfound.blogspot.com/2020/04/cpython-documentation-next-5-years.html), or do we need to reassess and set a different direction?
 
 The goals mentioned in the first and second years sound great, but I think we should review and see what we want to tackle first.  It could be those goals, or other ones, or a mix.
 
-#### *Year 1 goals (from old presentation)*
+##### *Year 1 goals (from old presentation)*
 
 * Governance and Workgroup: In progress; TODO: define how we work
 * Tutorials: Discussion started about existing tutorial. TODO: Do we have one "official" tutorial? Pathways for getting started (relates to landing page)
 * Language Translations: Seems to be going well; TODO: Identify any PyCon sprint focus areas
 * Landing Page: Work in progress [Documentation Experience presentation](https://docs.google.com/presentation/d/1ujDv8wViPvAMFAtYCRxSKh-CMUlbjcfVYitsqEI2Ios/edit#slide=id.p) TODO: Work with PSF to remove links to old wiki. This is for many the first stop in finding Python docs.
 
-#### *Year 2 and beyond goals (from old presentation)*
+##### *Year 2 and beyond goals (from old presentation)*
 
 * Evaluate effectiveness
 * Documentation sprints
 * Annual editorial review
 
-#### Selected priorities for the Editorial Board
+##### Selected priorities for the Editorial Board
 
 * How we can make it easier for people to contribute to docs
 * How to make the docs even more accessible
@@ -68,7 +79,7 @@ The goals mentioned in the first and second years sound great, but I think we sh
 
 **Decisions about documentation can be undone more easily than with code.**
 
-### How will we stay in touch with the docs community?
+#### How will we stay in touch with the docs community?
 
 Some people have already asked how they can be involved.
 
@@ -94,7 +105,7 @@ We discussed the following process considerations:
   * Any further discussions to continue on the Discourse, or privately by the Editorial Board.
   * There is no further discussions/comments on the repo's issue.
 
-### What are the things that require the Editorial Board to act on?
+#### What are the things that require the Editorial Board to act on?
 
 * Conflicts on content
 * Conflicts on tone and style best practices
@@ -104,7 +115,7 @@ We discussed the following process considerations:
 * Provide guidance and guidelines for changes
   See for example, the recent pull request: [https://github.com/python/cpython/pull/107449/files](https://github.com/python/cpython/pull/107449/files) which touches on global style issues.
 
-## Action items
+### Action items
 
 * Contact PSF infra/PSF board about python.org.
 * Create a REPO similar to steering-council: python/editorial-board
@@ -116,7 +127,7 @@ We discussed the following process considerations:
     * 1. Proposing a new idea
     * 2. We need a decision of existing issue.
 
-## Resources
+### Resources
 
 These links give context on the editorial board:
 

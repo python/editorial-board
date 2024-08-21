@@ -1,13 +1,23 @@
-# Meeting Notes: Python Docs Editorial Board
+---
+author: ["Mariatta"]
+title: "Meeting Minutes: March 11, 2024"
+date: "2024-03-11"
+description: "Meeting Minutes from Python Docs Editorial Board: March 11, 2024."
+summary: "Meeting Minutes from Python Docs Editorial Board: March 11, 2024."
+tags: ["minutes"]
+categories: ["minutes"]
+series: ["Meeting Minutes"]
+ShowToc: false
+TocOpen: false
+---
 
-## March 11, 2024
 
-## Attendees
+### Attendees
 
 Mariatta, Ned, Joanna, Guido
 
 
-## Agenda
+### Agenda
 
 1. What project do we want to deliver first? Here are some ideas to start the discussion:
 
@@ -40,7 +50,7 @@ Mariatta, Ned, Joanna, Guido
 
 
 
-## Notes
+### Notes
 
 Guido: We didn't actually go through that agenda at all.
 We discuss what our priorities are.
