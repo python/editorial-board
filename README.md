@@ -36,4 +36,12 @@ These links give context on existing documentation landing pages:
 - [Documentation Experience presentation - Review navigation of PSF website related to docs](https://docs.google.com/presentation/d/1ujDv8wViPvAMFAtYCRxSKh-CMUlbjcfVYitsqEI2Ios)
 
 
-## 
+## Building the static site
+
+1. Install Hugo
+
+2. Run the command::
+
+```
+hugo server
+```
