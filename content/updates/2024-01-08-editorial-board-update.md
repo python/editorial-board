@@ -2,8 +2,8 @@
 author: ["Carol Willing"]
 title: "Meeting Minutes: January 8, 2024"
 date: "2024-01-08"
-description: "Meeting Minutes from Python Docs Editorial Board: anuary 8, 2024."
-summary: "Meeting Minutes from Python Docs Editorial Board: anuary 8, 2024."
+description: "Meeting Minutes from Python Docs Editorial Board: January 8, 2024."
+summary: "Meeting Minutes from Python Docs Editorial Board: January 8, 2024."
 tags: ["minutes"]
 categories: ["minutes"]
 series: ["Meeting Minutes"]

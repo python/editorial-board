@@ -64,7 +64,7 @@ params:
       url: "https://discord.gg/nXkJ2JYvCu"
     - name: rss
       title: Get Updates by subscribing to our RSS Feed
-      url: "http://localhost:1313/index.xml"
+      url: "/index.xml"
 
 menu:
   main:
@@ -86,8 +86,6 @@ menu:
       weight: 50
 
 module:
-  # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
-  # workspace: docsy.work
   hugoVersion:
     extended: true
     min: 0.110.0

@@ -1,0 +1,23 @@
+.entry-content{
+    a{
+        text-decoration: underline;
+    }
+}
+
+#menu a{
+    :not(.active) {
+        text-decoration: underline;
+    }
+}
+
+.entry-header {
+    text-decoration: underline;
+}
+
+.archive-entry h3{
+    text-decoration: underline;
+}
+
+.breadcrumbs a:hover{
+    text-decoration: underline;
+}
