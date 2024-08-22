@@ -37,7 +37,7 @@ Mariatta, Ned, Joanna, Guido
 
 6. Will the editorial board give an update at the language summit or PyCon?
 
-7. The language summit isn’t even announced yet. We’ll think about it next time
+   - The language summit isn’t even announced yet. We’ll think about it next time
 
 ## Notes
 
