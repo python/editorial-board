@@ -11,10 +11,10 @@ Mariatta, Ned, Joanna, Guido
 
 1. What project do we want to deliver first? Here are some ideas to start the discussion:
 
-a. Define scope and outline for new intro tutorial
-b. Define scope and outline for new landing page
-c. Inventory/audit a section of the docs
-d. Personas (see #3 below)
+   a. Define scope and outline for new intro tutorial
+   b. Define scope and outline for new landing page
+   c. Inventory/audit a section of the docs
+   d. Personas (see #3 below)
 
 
 2. What does the docs community need from us most right now? Here are some ideas to start the discussion:
