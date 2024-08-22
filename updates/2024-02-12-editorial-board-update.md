@@ -62,7 +62,7 @@ d. Personas (see #3 below)
    - The EB will own this (and create issues and PRs)
    - Should still be on devguide
 
-8. Discovery: [Docs Style Guide](https://docs.google.com/document/d/1rSkUIGFuI5zDMYturyJCo9agYPQ-d53Z3MntSV0rB3E/edit#heading=h.hflx14peuyef)
+8. Discovery: 🔒 [Docs Style Guide](https://docs.google.com/document/d/1rSkUIGFuI5zDMYturyJCo9agYPQ-d53Z3MntSV0rB3E/edit#heading=h.hflx14peuyef)
 
 9. Mariatta to create a Gdrive folder to be shared with PDEB
    
