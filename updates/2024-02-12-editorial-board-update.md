@@ -19,9 +19,9 @@ Mariatta, Ned, Joanna, Guido
 
 2. What does the docs community need from us most right now? Here are some ideas to start the discussion:
 
-- How-to discussion
-- First-person discussion 
-- A more thorough and more skimmable style guide
+   - How-to discussion
+   - First-person discussion 
+   - A more thorough and more skimmable style guide
 
 3. [meta] Do we have a way to collect the largish topics they’ve discussed that we could provide guidance for? -> see editorial-board GH repo
 
