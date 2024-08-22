@@ -12,7 +12,7 @@ Mariatta, Ned, Carol, Joanna, Guido
 Where are we with the action items from April 8?
 
 1. Bring up in the next community call: Are there clear possibilities that you can share with the editorial board, so we can make a decision?
-   - Ned has been attending, but can’t tomorrow. They have not been coming up with things they want us to do.
+    - Ned has been attending, but can’t tomorrow. They have not been coming up with things they want us to do.
     - Give them immediate feedback: we will decide if you create an issue.
     - Sometimes the problem isn't framed appropriately
     - Carol will attend tomorrow. 
