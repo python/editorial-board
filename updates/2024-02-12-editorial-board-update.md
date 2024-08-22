@@ -31,7 +31,7 @@ Mariatta, Ned, Joanna, Guido
 
 4. Do we have an idea of what type of learner/user we need to optimize the docs for?
 
-- Wait until Carol is back 
+   - Wait until Carol is back 
 
 5. Do we have an idea of what type of contributor we want to prioritize removing obstacles for and creating systems for?
 
