@@ -71,7 +71,7 @@ Where are we with the action items from March 11?
 4. Is it time for us to focus on filling out these two docs so we can set a direction? Is there something else we should do first because it is either a higher priority or a prerequisite? Are there people in the Python community who have more formal experience with user research and might want to help?
    * Discovery doc about learners (Carol, would you like to capture your thoughts in this doc since you seem to have considered the issue deeply?) The Guiding Principles for Documentation Editorial Board.md captures the 3 user personas.
    * Discovery doc about contributors (Ned, would you like to capture your observations about the community in this doc since you seem to be the most involved with them?)
-   * Action item: finish up the [Guiding Principles](https://docs.google.com/document/d/1ILusuBaAoxUzm1NDOuiS3sZYePDVB5YcY7RoLkXyfI0/edit?usp=sharing) doc, and officially adopt it. To become the first page of the Docs Guide. To answer the “Discover Doc about Learners” Discovery Doc: Who is Our Learner
+   * Action item: finish up the 🔒 [Guiding Principles](https://docs.google.com/document/d/1ILusuBaAoxUzm1NDOuiS3sZYePDVB5YcY7RoLkXyfI0/edit?usp=sharing) doc, and officially adopt it. To become the first page of the Docs Guide. To answer the “Discover Doc about Learners” Discovery Doc: Who is Our Learner
 
 5. Todo: form a WG to address packaging users docs
 
