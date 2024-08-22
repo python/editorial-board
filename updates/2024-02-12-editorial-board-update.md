@@ -112,7 +112,8 @@ d. Personas (see #3 below)
 * Style Guide:
   Update the style guide with some new recommendations: first-person, terminologies
 * Ad campaign:
-  # 10 of the above notes
+
+More detail on #10 of the above notes:
 * Start the async exploration of who our learners are 
 * Start the async explorations of what kind of contributors we want to help
 * Specify that Python wiki is out of scope in PEP 732: https://github.com/python/peps/pull/3663	
