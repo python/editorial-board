@@ -67,8 +67,8 @@ Mariatta, Ned, Joanna, Guido
 9. Mariatta to create a Gdrive folder to be shared with PDEB
    
 10. Need an “ad-campaign” about https://github.com/python/editorial-board, this exists, the readme tells how to be involved and ask for help.
-   On Discourse
-   - In the readme of docs-community GitHub repo
+   - On Discourse
+   - In the README of docs-community GitHub repo
    - DevGuide
    - And PEP 732 
 
