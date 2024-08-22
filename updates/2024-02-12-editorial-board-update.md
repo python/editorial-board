@@ -25,9 +25,9 @@ Mariatta, Ned, Joanna, Guido
 
 3. [meta] Do we have a way to collect the largish topics they’ve discussed that we could provide guidance for? -> see editorial-board GH repo
 
-- Function parameters: bulleted or not
-- Examples: how to integrate into the docs
-- Type hints 
+   - Function parameters: bulleted or not
+   - Examples: how to integrate into the docs
+   - Type hints 
 
 4. Do we have an idea of what type of learner/user we need to optimize the docs for?
 
