@@ -30,7 +30,7 @@ d. Define learner personas
 - Type hints 
 
 4. Do we have an idea of what type of learner/user we need to optimize the docs for?
-   - [Discovery doc about learners](https://docs.google.com/document/d/1ILusuBaAoxUzm1NDOuiS3sZYePDVB5YcY7RoLkXyfI0/edit?usp=sharing)
+   - 🔒 [Discovery doc about learners](https://docs.google.com/document/d/1ILusuBaAoxUzm1NDOuiS3sZYePDVB5YcY7RoLkXyfI0/edit?usp=sharing)
    - [Thoughts about growth in users and approach](https://discord.com/channels/1100135599077331024/1100135599077331028/1216838941723070534)
 
 5. Do we have an idea of what type of contributor we want to prioritize removing obstacles for and creating systems for?
