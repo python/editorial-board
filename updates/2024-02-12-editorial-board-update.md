@@ -76,10 +76,10 @@ Mariatta, Ned, Joanna, Guido
    
 12. Discuss: what type of learner we need to optimize the docs for?
     - We wait until Carol is back
-    - We’ll start an async collaboration in a GDoc in a new 
-    - There is a way to get notification of changes in GDoc. Need to be set up per-doc
-    - Click the “comment” button on GDoc
-    - Click the bell to set notifications: you can get notified of all content changes
+    - We’ll start an async collaboration in a new Google Doc
+    - There is a way to get notification of changes in Google Docs (need to be set up per-doc):
+       - Click the “comment” button
+       - Click the bell to set notifications: you can get notified of all content changes
 
 13. Do we have an idea of what type of contributor we want to prioritize removing obstacles for and creating systems for?
     - What are the types of contributors?
