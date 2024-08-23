@@ -12,7 +12,7 @@ We have a "changelog" of decisions: [CHANGELOG.md](CHANGELOG.md).
 
 These updates provide high level information about the Editorial Board's activities:
 
-- [2024-01](updates/2024-01-08-editorial-board-update.md)
+- [2024-01](content/updates/2024-01-08-editorial-board-update.md)
 
 ## Process
 
@@ -34,3 +34,45 @@ These links give context on existing documentation landing pages:
 - [CPython Documentation Landing page (docs.python.org)](https://docs.python.org)
 - [PSF (python.org) website landing page](https://python.org)
 - [Documentation Experience presentation - Review navigation of PSF website related to docs](https://docs.google.com/presentation/d/1ujDv8wViPvAMFAtYCRxSKh-CMUlbjcfVYitsqEI2Ios)
+
+
+## Writing new content
+
+Hugo is not needed to be installed in order to write a new meeting minutes.
+
+Write the meeting minutes a markdown file under ``content/updates/*.md``, commit, and
+create the pull request. A preview will then be generated on Netlify.
+
+The meeting minutes should be written using template provided in [archetypes/updates.md](/archetypes/updates.md).
+
+If you have Hugo installed, a new meeting minutes file can be created by typing on the command line:
+
+```
+hugo new content content/updates/newupdate.md
+```
+
+This will create the file under ``content/updates/newupdate.md``, and you can continue editing it.
+
+(replace "newupdate.md" with the desired filename.)
+
+## Building the static site locally
+
+1. First install Hugo.
+
+2. Run the command at the root of the repository:
+
+```
+hugo server
+```
+
+## Writing new changelog
+
+Use the template in [archetypes/changelog.md](archetypes/changelog.md).
+
+The file can also be created using the command:
+
+```
+hugo new content content/changelog/newchangelog.md
+```
+
+It will create a new file under ``content/changelog/newchangelog.md``. (Replace "newchangelog.md" with the desired filename).

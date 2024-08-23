@@ -1,6 +1,15 @@
-# Meeting Notes: Python Docs Editorial Board
-
-## February 12, 2024
+---
+author: ["Mariatta"]
+title: "Meeting Minutes: February 12, 2024"
+date: "2024-02-12"
+description: "Meeting Minutes from Python Docs Editorial Board: February 12, 2024."
+summary: "Meeting Minutes from Python Docs Editorial Board: February 12, 2024."
+tags: ["minutes"]
+categories: ["minutes"]
+series: ["Meeting Minutes"]
+ShowToc: false
+TocOpen: false
+---
 
 ## Attendees
 

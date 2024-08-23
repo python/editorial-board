@@ -1,13 +1,22 @@
-# Meeting Notes: Python Docs Editorial Board
+---
+author: ["Mariatta"]
+title: "Meeting Minutes: August 12, 2024"
+date: "2024-08-12"
+description: "Meeting Minutes from Python Docs Editorial Board: August 12, 2024."
+summary: "Meeting Minutes from Python Docs Editorial Board: August 12, 2024."
+tags: ["minutes"]
+categories: ["minutes"]
+series: ["Meeting Minutes"]
+ShowToc: false
+TocOpen: false
+---
 
-## August 12, 2024
-
-## Attendees
+### Attendees
 
 Mariatta, Ned
 
 
-## Old Action Items
+### Old Action Items
 
 Where are we with the action items from June 3?
 - [Create a dir in the GitHub repo and move there?](https://github.com/python/editorial-board/issues/5) Move or link the docs to the GitHub repo? Communicate this at the next Docs Community meeting
@@ -17,7 +26,7 @@ Where are we with the action items from June 3?
 
 
 
-## Agenda
+### Agenda
 
 1. What should we accomplish before our next call?
 2. Migrate documents from Google Drive to GitHub?
@@ -25,15 +34,15 @@ Where are we with the action items from June 3?
 4. Next steps for Guiding Principles doc?
 5. Next steps for wg to address packaging user docs?
 
-## Notes
+### Notes
 
 We did not go through the planned agenda, but Mariatta and Ned discussed the new outline for DevGuide.
 
-### New outline for devguide / contribution guide
+#### New outline for devguide / contribution guide
 
 Proposed outline for combined guide: https://docs.google.com/document/d/1Ajk_Vj3rccJ9ReB7WCNhEnLHQP23iMg7jAFQ-CYKzWo/edit
 
-#### Next steps:
+##### Next steps:
 
 - Create devguide project
 

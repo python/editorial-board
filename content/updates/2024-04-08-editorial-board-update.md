@@ -1,13 +1,23 @@
-# Meeting Notes: Python Docs Editorial Board
+---
+author: ["Mariatta"]
+title: "Meeting Minutes: April 08, 2024"
+date: "2024-04-08"
+description: "Meeting Minutes from Python Docs Editorial Board: April 08, 2024."
+summary: "Meeting Minutes from Python Docs Editorial Board: April 08, 2024."
+tags: ["minutes"]
+categories: ["minutes"]
+series: ["Meeting Minutes"]
+ShowToc: false
+TocOpen: false
+---
 
-## April 8, 2024
 
-## Attendees
+### Attendees
 
 Mariatta, Ned, Joanna, Guido
 
 
-## Agenda
+### Agenda
 
 1. What will be our Doc Summit participation?
    - Who will be attending? Carol, Ned
