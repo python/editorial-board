@@ -1,4 +1,4 @@
-baseURL: "https://pythoneditorialboard.netlify.app"
+baseURL: "https://python.github.io/editorial-board/"
 title: Python Docs Editorial Board
 copyright: "© [Python Docs Editorial Board and Contributors](https://github.com/python/editorial-board/graphs/contributors)"
 paginate: 5
