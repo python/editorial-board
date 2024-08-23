@@ -64,7 +64,7 @@ params:
       url: "https://discord.gg/nXkJ2JYvCu"
     - name: rss
       title: Get Updates by subscribing to our RSS Feed
-      url: "/index.xml"
+      url: "./index.xml"
 
 menu:
   main:
