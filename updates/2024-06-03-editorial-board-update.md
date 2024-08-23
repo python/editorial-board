@@ -36,22 +36,22 @@ Where are we with the action items from March 11?
 
 1. What action items are we taking from the discussion at the docs dinner?
    * Notes on contributing to docs:
-   - Melanie’s notes: [Python Docs Contributing Adventure](https://docs.google.com/document/d/11zxisx5XfYOsrDOn4qd-XUSpDltIOi35qiOO9fDLfnI/edit#heading=h.1hkck4lqac8)
-   - Shauna’s notes: [Python Docs Onboarding Notes](https://docs.google.com/document/d/1icjPpmEUH0BRPDwl7oXLkpasvwZoS5io2LyTEhblku0/edit)
-   - Notes after discussion with Eric Matthes: [Guiding Principles for Documentation Editorial Board.md](https://drive.google.com/file/d/1elKNdRPTIoNe6EZ4TbS9aquM-RaNDgmc/view?usp=drive_link)
-   - Sprint ideas from Carol's discussion: [Doc ideas.md](https://drive.google.com/file/d/17uGzCmFnUDBYGwsR9xmzEOGi4fOOSnOj/view?usp=drive_link)
+     - Melanie’s notes: [Python Docs Contributing Adventure](https://docs.google.com/document/d/11zxisx5XfYOsrDOn4qd-XUSpDltIOi35qiOO9fDLfnI/edit#heading=h.1hkck4lqac8)
+     - Shauna’s notes: [Python Docs Onboarding Notes](https://docs.google.com/document/d/1icjPpmEUH0BRPDwl7oXLkpasvwZoS5io2LyTEhblku0/edit)
+     - Notes after discussion with Eric Matthes: [Guiding Principles for Documentation Editorial Board.md](https://drive.google.com/file/d/1elKNdRPTIoNe6EZ4TbS9aquM-RaNDgmc/view?usp=drive_link)
+     - Sprint ideas from Carol's discussion: [Doc ideas.md](https://drive.google.com/file/d/17uGzCmFnUDBYGwsR9xmzEOGi4fOOSnOj/view?usp=drive_link)
 
    * Other notes from dinner: 
-   - Should you learn Python
-   - Cheatsheet for rST markup
-   - Ned says: "Write how-tos for Trey"
-   - Trey = priorities
-   - Docs are shared resource
-   - Add "Did you find this helpful"
-   - Update "How to contribute to docs" in dev guide and perhaps in a more user friendly way
-   - What to expect after a docs PR
-   - Codespell run once by core devs then add to CI after
-   - Message on PR template for docs that sets expectations for PR review
+     - Should you learn Python
+     - Cheatsheet for rST markup
+     - Ned says: "Write how-tos for Trey"
+     - Trey = priorities
+     - Docs are shared resource
+     - Add "Did you find this helpful"
+     - Update "How to contribute to docs" in dev guide and perhaps in a more user friendly way
+     - What to expect after a docs PR
+     - Codespell run once by core devs then add to CI after
+     - Message on PR template for docs that sets expectations for PR review
    
    * Action item: no clear path for contributing to CPython Docs. Devguide section is lacking, mostly for CPython code changes. 
    * New action item: the PDEB should write tickets for the action items on this meeting
