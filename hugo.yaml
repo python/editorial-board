@@ -1,4 +1,4 @@
-baseURL: "https://pythoneditorialboard.netlify.app"
+baseURL: "https://python.github.io/editorial-board/"
 title: Python Docs Editorial Board
 copyright: "© [Python Docs Editorial Board and Contributors](https://github.com/python/editorial-board/graphs/contributors)"
 paginate: 5
@@ -23,8 +23,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  description: "Python Docs Editorial Board (PEP 732)"
+  author: Python Docs Editorial Board
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
