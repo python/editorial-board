@@ -9,12 +9,8 @@ categories: ["minutes"]
 series: ["Meeting Minutes"]
 ShowToc: false
 TocOpen: false
+members: ["Mariatta", "Ned Batchelder"]
 ---
-
-### Attendees
-
-Mariatta, Ned
-
 
 ### Old Action Items
 

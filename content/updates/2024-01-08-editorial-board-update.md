@@ -9,13 +9,8 @@ categories: ["minutes"]
 series: ["Meeting Minutes"]
 ShowToc: false
 TocOpen: false
+members: ["Carol Willing", "Guido van Rossum", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
 ---
-
-
-
-### Attendees
-
-Carol, Guido, Joanna, Mariatta, Ned
 
 ### Agenda
 

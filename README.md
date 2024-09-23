@@ -55,6 +55,11 @@ This will create the file under ``content/updates/newupdate.md``, and you can co
 
 (replace "newupdate.md" with the desired filename.)
 
+### Updating the Meeting Attendee List
+
+The list of attendees is pulled from the ``"members"`` field in the frontmatter. By default, it lists all members
+of the Python Docs Editorial Board. If a member did not attend the meeting, remove from this list.
+
 ## Building the static site locally
 
 1. First install Hugo.
