@@ -10,9 +10,8 @@ We have a "changelog" of decisions: [CHANGELOG.md](CHANGELOG.md).
 
 ## Updates
 
-These updates provide high level information about the Editorial Board's activities:
-
-- [Updates](https://python.github.io/editorial-board/updates/)
+[Read updates](https://python.github.io/editorial-board/updates/) of the Editorial Board's activities can be read.
+Subscribe to the updates using the [RSS feed](https://python.github.io/editorial-board/updates/index.xml).
 
 ## Process
 
