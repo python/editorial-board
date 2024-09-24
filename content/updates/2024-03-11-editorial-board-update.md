@@ -9,13 +9,8 @@ categories: ["minutes"]
 series: ["Meeting Minutes"]
 ShowToc: false
 TocOpen: false
+members: ["Guido van Rossum", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
 ---
-
-
-### Attendees
-
-Mariatta, Ned, Joanna, Guido
-
 
 ### Agenda
 
