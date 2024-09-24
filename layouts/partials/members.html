@@ -1,12 +1,12 @@
-<div class="post-content">
+<div class="post-content" id="members">
     <h3 id="attendees">Attendees</h3>
-    {{ range $member := .Param "members" }}
     <ul>
+        {{ range $member := .Param "members" }}
         <li>
             <a href="{{ `members/` | relLangURL }}{{ $member | urlize }}/">
             {{ $member }}
         </a>
         </li>
+        {{ end }}
     </ul>
-    {{ end }}
 </div>

@@ -21,3 +21,19 @@
 .breadcrumbs a:hover{
     text-decoration: underline;
 }
+
+#members {
+  display: inline;
+  list-style: none;
+}
+
+#members li {
+  display: inline;
+}
+
+#members li:after {
+  content: ", ";
+}
+#members li:last-child:after {
+    content: "";
+}
