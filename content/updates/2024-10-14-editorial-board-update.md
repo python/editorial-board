@@ -1,5 +1,5 @@
 ---
-author: [""]
+author: ["Mariatta"]
 title: "Meeting Minutes: Oct 14, 2024"
 date: "2024-10-14"
 description: "Meeting Minutes from Python Docs Editorial Board: October 14, 2024"
