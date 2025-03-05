@@ -1,7 +1,7 @@
 ---
 author: ["Mariatta"]
 title: "Meeting Minutes: Jan 14, 2025"
-date: "2024-11-11"
+date: "2025-01-14"
 description: "Meeting Minutes from Python Docs Editorial Board: January 14, 2025"
 summary: "Meeting Minutes from Python Docs Editorial Board: January 14, 2025"
 tags: ["minutes"]
