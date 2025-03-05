@@ -8,5 +8,10 @@
         </a>
         </li>
         {{ end }}
+        {{ range $guest := .Param "guests" }}
+        <li>
+            {{ $guest}}
+        </li>
+        {{ end }}
     </ul>
 </div>
