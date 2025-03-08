@@ -17,7 +17,7 @@ members: ["Guido van Rossum", "Joanna Jablonski", "Ned Batchelder"]
 
 * [https://discuss.python.org/t/getopt-and-optparse-vs-argparse/69618/123](https://discuss.python.org/t/getopt-and-optparse-vs-argparse/69618/123)
 
-Notes:
+### Notes
 
 
 * Revisiting the “how to mark up types” discussion: [https://discuss.python.org/t/how-should-we-mark-up-multiple-types-in-a-type-field/48196/30](https://discuss.python.org/t/how-should-we-mark-up-multiple-types-in-a-type-field/48196/30)
