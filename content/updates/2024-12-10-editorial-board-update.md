@@ -12,7 +12,7 @@ TocOpen: false
 members: ["Guido van Rossum", "Mariatta", "Ned Batchelder"]
 ---
 
-### Agenda
+### Notes
 
 
 * Is what we’re doing fulfilling the purpose of the EB?
