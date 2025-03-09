@@ -16,7 +16,7 @@ These updates provide high level information about the Editorial Board's activit
 
 ## Process
 
-The Editorial Board's private meetings are monthly on the second Monday at 1:30pm Pacific.
+The Editorial Board's private meetings are monthly on the second Tuesday at 1:30pm Pacific.
 
 If you have a general request or question, please use the [Documentation category in Discourse](https://discuss.python.org/c/documentation/26).
 
