@@ -1,17 +1,19 @@
 <div class="post-content" id="members">
-    <h3 id="attendees">Attendees</h3>
-    <ul>
-        {{ range $member := .Param "members" }}
-        <li>
-            <a href="{{ `members/` | relLangURL }}{{ $member | urlize }}/">
-            {{ $member }}
-        </a>
-        </li>
-        {{ end }}
-        {{ range $guest := .Param "guests" }}
-        <li>
-            {{ $guest}}
-        </li>
-        {{ end }}
-    </ul>
+    {{if $.Param "members" }}
+        <h3 id="attendees">Attendees</h3>
+        <ul>
+            {{ range $member := .Param "members" }}
+            <li>
+                <a href="{{ `members/` | relLangURL }}{{ $member | urlize }}/">
+                {{ $member }}
+            </a>
+            </li>
+            {{ end }}
+            {{ range $guest := .Param "guests" }}
+            <li>
+                {{ $guest}}
+            </li>
+            {{ end }}
+        </ul>
+    {{ end }}
 </div>
