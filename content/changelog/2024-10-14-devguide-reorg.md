@@ -13,4 +13,4 @@ Refactoring the devguide into a Contribution Guide https://discuss.python.org/t/
 
 ## Summary
 
-TBD
+We've started a large task to restructure the devguide to be more welcoming to non-code contributions.
