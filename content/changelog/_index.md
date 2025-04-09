@@ -1,5 +1,6 @@
 ---
 title: "Editorial Board Decisions"
+layout: "changelog"
 ---
 
 Editorial Board Decisions
