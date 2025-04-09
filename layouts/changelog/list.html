@@ -67,7 +67,6 @@
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="post-header">
-    {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title entry-hint-parent">
       <a href="{{ .Permalink }}">{{ .Title }}</a>
       {{- if .Draft }}
@@ -118,9 +117,6 @@
     </ul>
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
-    {{- end }}
-    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- partial "share_icons.html" . -}}
     {{- end }}
   </footer>
 

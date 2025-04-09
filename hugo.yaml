@@ -2,7 +2,7 @@ baseURL: "https://python.github.io/editorial-board/"
 title: Python Docs Editorial Board
 copyright: "© [Python Docs Editorial Board and Contributors](https://github.com/python/editorial-board/graphs/contributors)"
 pagination:
-  pagerSize: 5
+  pagerSize: 10
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -31,7 +31,7 @@ params:
   defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: true
-  ShowReadingTime: true
+  ShowReadingTime: false
   # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
