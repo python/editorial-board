@@ -14,7 +14,7 @@ members: ["Carol Willing", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
 
 ### Agenda
 
-* [Docs audit with Savanna](https://docs.google.com/document/d/10MSDlxmgPex3ZGVr-4OggI2lqSAlv_0OTDchGlrLIkk/edit?usp=sharing) is on hold while she deals with other commitments. She has plans to work on it in the next couple months.
+* [Docs audit with Savannah](https://docs.google.com/document/d/10MSDlxmgPex3ZGVr-4OggI2lqSAlv_0OTDchGlrLIkk/edit?usp=sharing) is on hold while she deals with other commitments. She has plans to work on it in the next couple months.
 * Language Summit
 
 ### Notes
