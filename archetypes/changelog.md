@@ -7,4 +7,5 @@ categories: ["changelog"]
 series: ["Changelog"]
 ShowToc: false
 TocOpen: false
+layout: "changelog"
 ---
