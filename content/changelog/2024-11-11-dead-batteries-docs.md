@@ -17,4 +17,4 @@ PR: https://github.com/python/cpython/pull/126622
 
 ## Summary
 
-TBD
+The PR adds a "Removed modules" page that lists modules which have been removed. Each module gets a page (with the original URL) that explains why the module is gone.
