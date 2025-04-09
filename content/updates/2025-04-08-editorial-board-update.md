@@ -23,7 +23,7 @@ members: ["Carol Willing", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
     * Mariatta, Carol, and Guido will be there
     * Our updates: 
         * Not much has happened, docs community have been active 
-        * There has been a few big decisions
+        * There have been a few big decisions
         * Decrease in “entitlement/ownership” of specific docs areas
         * Having a named body has calmed down those and set a tone
     * Start with the positives we’ve seen with docs, it’s more collaborative now
