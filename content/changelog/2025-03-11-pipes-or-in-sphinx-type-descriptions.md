@@ -1,6 +1,6 @@
 ---
 author: ["Mariatta"]
-title: "| or 'or' in Sphinx documentation"
+title: "``|`` or 'or' in parameter documentation"
 date: "2025-03-11"
 tags: ["changelog"]
 categories: ["changelog"]
