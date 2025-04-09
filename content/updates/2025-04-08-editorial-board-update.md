@@ -30,7 +30,7 @@ members: ["Carol Willing", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
         * Compare with when we started years ago
         * “How it works” documentation moved into code
         * Renewed emphasis on translations, usability, Irit’s work with moving some docs from devguide to code, Ned’s devguide refactoring
-        * Sqllite3 docs in diataxis spirit
+        * Sqlite3 docs in Diátaxis spirit
         * Docs audit with Joanna and Savannah
         * Posting meeting minutes
         * Seeing engagements with people outside of Core team
