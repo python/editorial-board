@@ -14,4 +14,4 @@ Additional recommendations in the Style Guide https://github.com/python/devguide
 ## Summary
 
 The [Style Guide](https://devguide.python.org/documentation/style-guide/) has been updated with new
-recommendations about Author attribution and Pronounciation of dunder names.
+recommendations about author attribution (don't include it) and pronunciation of dunder names ("an `__init__`, not `a __init__`).
