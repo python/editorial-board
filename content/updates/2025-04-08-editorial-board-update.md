@@ -58,4 +58,4 @@ members: ["Carol Willing", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
 * Review our Changelog:
     *  [https://deploy-preview-28--pythoneditorialboard.netlify.app/changelog/](https://deploy-preview-28--pythoneditorialboard.netlify.app/changelog/)
     *  [https://github.com/python/editorial-board/pull/28](https://github.com/python/editorial-board/pull/28)
-    *  Actually, a lot have happened with Editorial board! 
+    *  Actually, a lot has happened with Editorial board! 
