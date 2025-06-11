@@ -16,7 +16,7 @@ members: ["Carol Willing", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
 
 
 
-* [Docs audit with Savanna](https://docs.google.com/document/d/10MSDlxmgPex3ZGVr-4OggI2lqSAlv_0OTDchGlrLIkk/edit?usp=sharing) is on hold
+* [Docs audit with Savannah](https://docs.google.com/document/d/10MSDlxmgPex3ZGVr-4OggI2lqSAlv_0OTDchGlrLIkk/edit?usp=sharing) is on hold
 * Education & Outreach working group
 * Docs WG read-out
 * [https://github.com/python/cpython/pull/135160](https://github.com/python/cpython/pull/135160) 
