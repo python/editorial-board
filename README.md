@@ -6,7 +6,7 @@ See [PEP 732](https://peps.python.org/pep-0732/).
 
 ## Changelog
 
-We have a "changelog" of decisions: [changelog directory]((https://github.com/python/editorial-board/tree/main/content/changelog)). 
+We have a "changelog" of decisions: [changelog directory](https://github.com/python/editorial-board/tree/main/content/changelog). 
 
 ## Updates
 
