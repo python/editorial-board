@@ -31,7 +31,7 @@ The board considered three possible stances for how members spend their time:
 3. **Proactive** — identify big documentation projects, reach out to find
    people to do the work, and lead/shepherd those efforts.
 
-**We have chosen stance 3.** Rather than waiting for issues to be escalated to
+**We have chosen to focus on stance 3.** Rather than waiting for issues to be escalated to
 us, the board will actively identify significant documentation work, find and
 support contributors to take it on, and project-manage those efforts to
 completion.
