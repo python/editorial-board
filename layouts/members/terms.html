@@ -1,0 +1,43 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="post-content md-content">
+  {{ .Content }}
+
+  {{- $active := slice }}
+  {{- $emeritus := slice }}
+  {{- range .Pages }}
+    {{- if eq (.Params.status | default "active") "emeritus" }}
+      {{- $emeritus = $emeritus | append . }}
+    {{- else }}
+      {{- $active = $active | append . }}
+    {{- end }}
+  {{- end }}
+
+  <h2 id="current-members">Current members</h2>
+  <ul>
+    {{- range sort $active "Title" }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{- with .Params.years }} <span class="member-years">({{ . }})</span>{{ end }}
+    </li>
+    {{- end }}
+  </ul>
+
+  {{- with $emeritus }}
+  <h2 id="emeritus">Emeritus</h2>
+  <ul>
+    {{- range sort . "Title" }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{- with .Params.years }} <span class="member-years">({{ . }})</span>{{ end }}
+    </li>
+    {{- end }}
+  </ul>
+  {{- end }}
+</div>
+
+{{- end }}{{/* end main */}}
