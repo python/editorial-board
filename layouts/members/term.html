@@ -19,7 +19,7 @@
 {{- end }}
 
 {{- $count := len .Pages }}
-<p class="member-meetings-intro">{{ .Title }} has attended {{ $count }} {{ cond (eq $count 1) "meeting" "meetings" }} so far:</p>
+<p class="member-meetings-intro">{{ cond (eq $count 1) "This is" "These are" }} the {{ $count }} {{ cond (eq $count 1) "meeting" "meetings" }} {{ .Title }} attended so far:</p>
 
 {{- $paginator := .Paginate .Pages }}
 {{- range $paginator.Pages }}
