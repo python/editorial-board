@@ -18,7 +18,8 @@
 </div>
 {{- end }}
 
-<p class="member-meetings-intro">These are the meetings {{ .Title }} attended:</p>
+{{- $count := len .Pages }}
+<p class="member-meetings-intro">{{ .Title }} has attended {{ $count }} {{ cond (eq $count 1) "meeting" "meetings" }} so far:</p>
 
 {{- $paginator := .Paginate .Pages }}
 {{- range $paginator.Pages }}
