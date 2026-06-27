@@ -1,5 +1,6 @@
 # Workflow for deploying the site to GitHub Pages
-# Copied from: https://gohugo.io/hosting-and-deployment/hosting-on-github/
+# The Hugo toolchain (Hugo extended + Go) is pinned by pixi.toml / pixi.lock,
+# so this workflow just bootstraps pixi and runs the shared build task.
 name: Deploy Hugo site to Pages
 
 on:
@@ -32,15 +33,7 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.128.0
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -49,18 +42,24 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Set up Pixi
+        uses: prefix-dev/setup-pixi@v0.9.6
+        with:
+          locked: true
+          cache: true
+      - name: Cache Hugo resources
+        uses: actions/cache@v5
+        with:
+          path: /tmp/hugo_cache
+          key: hugo-${{ hashFiles('go.sum', 'hugo.yaml') }}
+          restore-keys: |
+            hugo-
       - name: Build with Hugo
         env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_CACHEDIR: /tmp/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: America/Los_Angeles
         run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+          pixi run build --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

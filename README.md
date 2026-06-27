@@ -61,13 +61,15 @@ of the Python Docs Editorial Board. If a member did not attend the meeting, remo
 
 ## Building the static site locally
 
-1. First install Hugo.
+1. First [install pixi](https://pixi.sh/latest/#installation), which pins the Hugo toolchain.
 
-2. Run the command at the root of the repository:
+2. Run the dev server at the root of the repository:
 
 ```
-hugo server
+pixi run serve
 ```
+
+Use `pixi run build` to build the production site into `public/`.
 
 ## Writing new changelog
 

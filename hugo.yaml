@@ -93,7 +93,7 @@ menu:
 module:
   hugoVersion:
     extended: true
-    min: 0.110.0
+    min: 0.146.0
   imports:
     - path: github.com/adityatelange/hugo-PaperMod
       disable: false
