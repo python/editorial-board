@@ -1,0 +1,14 @@
+[workspace]
+channels = ["conda-forge"]
+name = "editorial-board"
+platforms = ["linux-64", "osx-arm64", "win-64"]
+exclude-newer = "7d"
+[dependencies]
+hugo = "0.161.1.*"
+go = "*"
+
+[tasks]
+build = "hugo --gc --minify"
+preview = "hugo --gc --minify --buildFuture"
+branch = "hugo --gc --minify"
+serve = "hugo server"
