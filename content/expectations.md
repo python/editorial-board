@@ -64,7 +64,7 @@ Members of the Editorial Board are expected to:
   [Documentation Working Group](https://github.com/python/docs-community),
   translation teams, and contributors).
 
-### What it means to lead a project
+### What it means to sponsor a project
 
 - Propose a potential project to the other EB members for approval
 - Scope the project and present the intended scope to the other EB members for approval
