@@ -35,7 +35,8 @@ Once a project is approved by the Editorial Board, copy this block to add a new 
 ```markdown
 ### <Project name>
 
-- **Lead:** <name — required; no lead, no listing>
+- **Sponsor:** <EB member currently sponsoring the project>
+- **Lead:** <name, if a lead is actively working on the project>
 - **Status:** Proposed | Active | Blocked | Done
 - **Summary:** One or two sentences on what this project delivers.
 - **Why it matters:** Who benefits and why this is worth doing now.
