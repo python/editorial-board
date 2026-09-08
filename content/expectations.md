@@ -66,9 +66,10 @@ Members of the Editorial Board are expected to:
 
 ### What it means to lead a project
 
-_TODO: define the commitment expected of a project lead — e.g. defining scope,
-breaking the work into contributable pieces, recruiting and supporting
-contributors, reporting progress to the board, and seeing the work through._
+- Propose a potential project to the other EB members for approval
+- Scope the project and present the intended scope to the other EB members for approval
+- Sponsor the project, support the work in the docs community
+- See the project through to completion, or shut it down if it won't be completed
 
 ## Joining the board
 
