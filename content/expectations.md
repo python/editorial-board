@@ -63,7 +63,6 @@ Members of the Editorial Board are expected to:
 - Engage constructively with the wider documentation community (the
   [Documentation Working Group](https://github.com/python/docs-community),
   translation teams, and contributors).
-- Confirm annually whether they wish to continue serving, per PEP 732.
 
 ### What it means to lead a project
 
