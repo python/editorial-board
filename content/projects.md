@@ -39,6 +39,7 @@ Once a project is approved by the Editorial Board, copy this block to add a new 
 - **Lead:** <name, if a lead is actively working on the project>
 - **Status:** Proposed | Active | Blocked | Done
 - **Summary:** One or two sentences on what this project delivers.
+- **Full issue:** A link to the issue (in this repo or elsewhere) that fully describes the project.
 - **Why it matters:** Who benefits and why this is worth doing now.
 - **Challenges / risks:** The hard parts — technical blockers, dependencies,
   unknowns, things that could derail it.
