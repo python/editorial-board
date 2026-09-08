@@ -42,7 +42,7 @@ Once a project is approved by the Editorial Board, copy this block to add a new 
 - **Full issue:** A link to the issue (in this repo or elsewhere) that fully describes the project.
 - **Why it matters:** Who benefits and why this is worth doing now.
 - **How to help:** Concrete ways a contributor can get involved.
-- **Links:** Relevant issues, PRs, discussions, or docs.
+- **Links:** Other relevant issues, PRs, discussions, or docs, if any.
 ```
 
 ## Active projects
