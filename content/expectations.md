@@ -33,7 +33,7 @@ The board considered three possible stances for how members spend their time:
 
 **We have chosen to focus on stance 3.** Rather than waiting for issues to be escalated to
 us, the board will actively identify significant documentation work, find and
-support contributors to take it on, and project-manage those efforts to
+support contributors to take it on, and either sponsor or project-manage those efforts to
 completion.
 
 We remain available for the reactive decision-making in stance 1 — when the
