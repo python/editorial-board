@@ -77,6 +77,14 @@ menu:
       name: Changelog
       url: /changelog
       weight: 30
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 35
+    - identifier: expectations
+      name: Board Roles
+      url: /expectations
+      weight: 37
     - identifier: archives
       name: Archives
       url: /archives
