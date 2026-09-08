@@ -45,7 +45,7 @@ Once a project is approved by the Editorial Board, copy this block to add a new 
 - **Links:** Other relevant issues, PRs, discussions, or docs, if any.
 ```
 
-## Active projects
+## Projects
 
 _None listed yet. Add projects here using the template above._
 
