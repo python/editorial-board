@@ -47,7 +47,7 @@ What this means in practice:
 
 - We maintain a [list of projects](/projects/) that we believe are worth doing.
 - A project is listed only if it is desirable, has been realistically scoped, and major decisions have been made. There may not yet be an EB sponsor, but one will be identified before the project is started. The projects are ready for someone to start working on them; they have been concretely scoped out.
-  not a wish list — every entry has someone accountable for moving it forward.
+- A project is listed only if it is desirable, has been realistically scoped, and major decisions have been made. There may not yet be an EB sponsor, but one will be identified before the project is started. The projects are ready for someone to start working on them; they have been concretely scoped out.
 - Each project is described with enough detail to be actionable, including the
   challenges and risks involved, not just the desired outcome.
 - We hold ourselves to project-managing these efforts, not merely naming them.
