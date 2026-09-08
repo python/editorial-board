@@ -41,8 +41,6 @@ Once a project is approved by the Editorial Board, copy this block to add a new 
 - **Summary:** One or two sentences on what this project delivers.
 - **Full issue:** A link to the issue (in this repo or elsewhere) that fully describes the project.
 - **Why it matters:** Who benefits and why this is worth doing now.
-- **Challenges / risks:** The hard parts — technical blockers, dependencies,
-  unknowns, things that could derail it.
 - **How to help:** Concrete ways a contributor can get involved.
 - **Links:** Relevant issues, PRs, discussions, or docs.
 ```
