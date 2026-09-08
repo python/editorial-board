@@ -18,7 +18,7 @@ people to carry it out.
 ## How this list works
 
 - **Every active project has a committed lead.** If a project loses its lead, it
-  moves to [Parking lot](#parking-lot) until a new lead steps up.
+  becomes Blocked until a new lead steps up.
 - **Each project names its challenges**, not just the goal. Describing the
   hard parts up front helps contributors know what they are taking on.
 - **We keep the list short and prioritized** rather than long and
