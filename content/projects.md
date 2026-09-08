@@ -47,7 +47,7 @@ Once a project is approved by the Editorial Board, copy this block to add a new 
 
 ## Projects
 
-_None listed yet. Add projects here using the template above._
+_None listed yet. Add projects here using the template above._ Order them by rough priority with active projects first.
 
 <!--
 Example seeded from recent meetings — fill in a committed lead before promoting
