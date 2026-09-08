@@ -10,8 +10,7 @@ TocOpen: true
 > **Status: Draft.** This page is a work in progress, started following the
 > [June 2026 meeting](/updates/2026-06-09/).
 
-This is the Editorial Board's list of significant documentation projects we are
-actively leading or shepherding. It reflects our
+This is the Editorial Board's list of significant documentation projects we have identified as valuable and actionable. It reflects our
 [proactive stance](/expectations/#how-we-work-proactive-not-just-reactive):
 rather than only reacting to requests, we identify important work and find
 people to carry it out.
