@@ -17,8 +17,7 @@ people to carry it out.
 
 ## How this list works
 
-- **Every project has a committed lead.** This is not a wish list. A project is
-  added only when someone has agreed to lead it. If a project loses its lead, it
+- **Every active project has a committed lead.** If a project loses its lead, it
   moves to [Parking lot](#parking-lot) until a new lead steps up.
 - **Each project names its challenges**, not just the goal. Describing the
   hard parts up front helps contributors know what they are taking on.
