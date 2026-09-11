@@ -1,25 +1,27 @@
+# Netlify builds PR previews only; production deploys via GitHub Pages.
+# The Hugo toolchain (Hugo extended + Go) is pinned by pixi.toml / pixi.lock.
+# Netlify has no pixi preinstalled, so each build bootstraps it, then runs the
+# same pixi tasks the GitHub Pages workflow uses.
+
 [build]
   publish = "public"
-  command = "hugo --gc --minify"
-
-  [build.environment]
-    HUGO_VERSION = "0.160.1"
+  command = "curl -fsSL https://pixi.sh/install.sh | bash && export PATH=\"$HOME/.pixi/bin:$PATH\" && pixi run --locked build"
 
 [context.production.environment]
   HUGO_ENV           = "production"
   HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
-  command = "hugo --gc --minify --enableGitInfo"
+  command = "curl -fsSL https://pixi.sh/install.sh | bash && export PATH=\"$HOME/.pixi/bin:$PATH\" && pixi run --locked build --enableGitInfo"
 
   [context.split1.environment]
     HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "curl -fsSL https://pixi.sh/install.sh | bash && export PATH=\"$HOME/.pixi/bin:$PATH\" && pixi run --locked preview -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = "curl -fsSL https://pixi.sh/install.sh | bash && export PATH=\"$HOME/.pixi/bin:$PATH\" && pixi run --locked branch -b $DEPLOY_PRIME_URL"
 
 [context.next.environment]
   HUGO_ENABLEGITINFO = "true"
