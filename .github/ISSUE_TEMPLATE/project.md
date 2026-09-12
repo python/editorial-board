@@ -19,6 +19,6 @@ assignees: ''
 
 (What decisions need to be made before work can start?)
 
-## Challenges and Risks
+## Challenges and risks
 
 (Enumerate some possible pitfalls that will need to be navigated.)
