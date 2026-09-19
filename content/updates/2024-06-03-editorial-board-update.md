@@ -90,7 +90,7 @@ Where are we with the action items from March 11?
      - Translations
    * People writing dev docs professionally don’t wanna contribute to Open source docs?
    * Educators may have feedback too
-   * As PDEb we can create a system to unblock contributors. Which type of contributors we want to focus on? #2: long-term docs contributors.
+   * As PDEB we can create a system to unblock contributors. Which type of contributors we want to focus on? #2: long-term docs contributors.
    * Action item: the doc outline. Share tools/cheatsheet of learning Sphinx/rst, etc
      - Note:  the logistics of splitting up docs sections will be a big project
    * Action item:

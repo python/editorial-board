@@ -78,7 +78,7 @@ We also didn't review last month's action items.
    - What to do with Changelog.
    - Directives changes in the rst. Need to improve the devguide for it.
    - Typographic markups. Still under discussion on Discourse. 
-   - Think about the outcome first and toolings next.
+   - Think about the outcome first and tooling next.
    - Accessibility checking. UI/UX. Italics or not.
 7. Ned is talking to a university professor who is building their own IDE/notebook. 
    - They see this as a hurdle for teaching Python to students

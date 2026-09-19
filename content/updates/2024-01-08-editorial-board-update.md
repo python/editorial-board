@@ -18,7 +18,7 @@ We discussed these questions and worked to answer them.
 
 #### How often will we meet?
 
-We will meet monthly on second Monday each month from 1:30-2:30pm Pacific.
+We will meet monthly on the second Monday each month from 1:30-2:30pm Pacific.
 
 We will work asynchronously most of the time.
 
@@ -40,7 +40,7 @@ We will produce:
 6. *Idea:* incorporate algolia search to sphinx
 7. Python.org vs docs.python.org
     * We should limit ourselves to docs.python.org
-    * Share recommendations to python.org for changes about making sure on python.org docs will go to docs.python.org. Reduce multiple paths to wiki and doc landing pages other than docs.python.org when refering to "docs"
+    * Share recommendations to python.org for changes about making sure on python.org docs will go to docs.python.org. Reduce multiple paths to wiki and doc landing pages other than docs.python.org when referring to "docs"
 
 #### Will we start implementing the five-year plan partly outlined in the [Language Summit 2020 presentation](https://pyfound.blogspot.com/2020/04/cpython-documentation-next-5-years.html), or do we need to reassess and set a different direction?
 
@@ -115,7 +115,7 @@ We discussed the following process considerations:
 * Contact PSF infra/PSF board about python.org.
 * Create a REPO similar to steering-council: python/editorial-board
   * Readme should point to the PEP for Editorial board to create. @Carol to add content.
-* Meeting notes: don’t need to include too much details. It doesn’t need review, comments.
+* Meeting notes: don’t need to include too much detail. It doesn’t need review, comments.
 * Let’s create a new repo: python/editorial-board. Done. @editorial-board team was also created.
 * Need an issue template: on GitHub
   * Need to submit their request into one of two big priorities:

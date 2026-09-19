@@ -19,7 +19,7 @@ members: ["Carol Willing", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
 
 ### Notes
 
-* Language Summit: we have 30 minutes slot to engage with the core team. What are we gonna do?
+* Language Summit: we have 30-minute slot to engage with the core team. What are we gonna do?
     * Mariatta, Carol, and Guido will be there
     * Our updates: 
         * Not much has happened, docs community have been active 
@@ -51,7 +51,7 @@ members: ["Carol Willing", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
         * Mention the Education & outreach WG
     * Who are we serving, how do we serve them
         * Main audiences: Docs community, Python users, new users
-    * What else core team expect from us?
+    * What else does the core team expect from us?
     * What do we want to achieve?
     * Mariatta to start some slides (maybe not until May)
 * Docs audit is still on hold. Might sprint at PyCon US.

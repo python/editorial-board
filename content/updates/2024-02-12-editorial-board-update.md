@@ -62,7 +62,7 @@ members: ["Guido van Rossum", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
    - In devguide now, update it
    - https://devguide.python.org/documentation/style-guide/
    - Some things should be in the style guide
-   - First person, terminologies like master/slave, should be there
+   - First person, terminology like master/slave, should be there
    - Big O notation should be in the Howto part of the style guide
    - The EB will own this (and create issues and PRs)
    - Should still be on devguide
@@ -91,7 +91,7 @@ members: ["Guido van Rossum", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
     - Core devs, triagers -> already know the way
     - For non core devs: First time OS contributor, vs experienced OS contributor
     - Non developers
-    - Not-primarily english-speaking contributors
+    - Not-primarily English-speaking contributors
 
 14. Guido’s request: Not having links that are hidden unless you hover
 
@@ -115,7 +115,7 @@ members: ["Guido van Rossum", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
 ## Action items
 
 * Style Guide:
-  Update the style guide with some new recommendations: first-person, terminologies
+  Update the style guide with some new recommendations: first-person, terminology
 * Ad campaign:
 
 More detail on #10 of the above notes:
