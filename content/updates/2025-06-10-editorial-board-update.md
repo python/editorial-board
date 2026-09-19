@@ -76,4 +76,4 @@ members: ["Carol Willing", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
         * “Best practices in docs translation” discussion: \
 [https://discuss.python.org/t/best-practices-in-docs-translation/94427](https://discuss.python.org/t/best-practices-in-docs-translation/94427) 
         * We need to learn more about translations and how each groups work.
-        * Lysandros plans to host a Greek translations at PyCon Greece. Said it would be great to have best practises
+        * Lysandros plans to host a Greek translations at PyCon Greece. Said it would be great to have best practices
