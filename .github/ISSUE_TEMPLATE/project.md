@@ -1,9 +1,9 @@
 ---
-name: Suggest a project
-about: Suggest a project for the EB to oversee
-title: Project: <topic>
-labels: project
-assignees: ''
+name: "Suggest a project"
+about: "Suggest a project for the EB to oversee"
+title: "Project: <topic>"
+labels: "project"
+assignees: ""
 
 ---
 
