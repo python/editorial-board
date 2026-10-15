@@ -8,10 +8,10 @@ TocOpen: true
 ---
 
 > **Status: Draft.** This page is a work in progress, started following the
-> [June 2026 meeting](/updates/2026-06-09/).
+> [June 2026 meeting]({{< relref "updates/2026-06-09" >}}).
 
 This is the Editorial Board's list of significant documentation projects we have identified as valuable and actionable. It reflects our
-[proactive stance](/expectations/#how-we-work-proactive-not-just-reactive):
+[proactive stance]({{< relref "expectations#how-we-work-proactive-not-just-reactive" >}}):
 rather than only reacting to requests, we identify important work and find
 people to carry it out.
 
