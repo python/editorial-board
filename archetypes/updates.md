@@ -9,7 +9,7 @@ categories: ["minutes"]
 series: ["Meeting Minutes"]
 ShowToc: false
 TocOpen: false
-members: ["Carol Willing", "Guido van Rossum", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
+members: ["Carol Willing", "Joanna Jablonski", "Mariatta", "Ned Batchelder"]
 ---
 
 ### Agenda
