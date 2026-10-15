@@ -1,0 +1,7 @@
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# pixi environments (pixi.lock is committed; the env dir is not)
+.pixi/
