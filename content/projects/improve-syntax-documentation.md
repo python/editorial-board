@@ -1,7 +1,7 @@
 ---
 title: "Improve syntax documentation"
 date: "2026-11-10"
-status: "proposed"
+status: "active"
 sponsor: ""
 lead: "Petr Viktorin"
 summary: "Reword the syntax chapters of the Python Language Reference to match current Python: an overview and common uses first, then increasingly complex details, ending with the formal grammar."
