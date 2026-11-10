@@ -1,0 +1,15 @@
+{{- /*
+  Returns a project's status key (proposed, active, blocked, or done).
+  Fails the build on a missing or unknown status, and warns about an active
+  project without a lead. Context: a page in content/projects/.
+*/ -}}
+{{- $allowed := slice "active" "proposed" "blocked" "done" }}
+{{- $s := .Params.status | default "" | lower }}
+{{- if not $s }}
+  {{- errorf "%s: missing project status (use proposed, active, blocked, or done)" .File.Path }}
+{{- else if not (in $allowed $s) }}
+  {{- errorf "%s: unknown project status %q (use proposed, active, blocked, or done)" .File.Path .Params.status }}
+{{- else if and (eq $s "active") (not .Params.lead) }}
+  {{- warnf "%s: active project has no lead" .File.Path }}
+{{- end }}
+{{- return $s }}

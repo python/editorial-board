@@ -1,0 +1,16 @@
+{{- /*
+  Renders one link. GitHub issue and PR URLs are shown as owner/repo#number
+  with a status badge, which the script in project_refs.html fills in from
+  the GitHub API. Context: dict "url" <url> "title" <optional title>.
+*/ -}}
+{{- with partial "github_parse.html" $.url }}
+<span class="gh-ref" data-gh-api="https://api.github.com/repos/{{ .owner }}/{{ .repo }}/issues/{{ .number }}">
+  <span class="gh-state" hidden></span>
+  <a href="{{ $.url }}">{{ .owner }}/{{ .repo }}#{{ .number }}</a>
+  {{- with $.title }} <span class="gh-title">{{ . }}</span>
+  {{- else }} <span class="gh-title" data-gh-fill></span>
+  {{- end }}
+</span>
+{{- else }}
+<a href="{{ $.url }}">{{ $.title | default $.url }}</a>
+{{- end }}

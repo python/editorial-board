@@ -1,0 +1,13 @@
+{{- /*
+  If the URL is a GitHub issue or pull request, returns a dict with owner,
+  repo, and number; otherwise returns false. Accepts http/https, www., and
+  trailing parts such as /files or #issuecomment-123.
+  Context: the URL string.
+*/ -}}
+{{- $re := `^https?://(?:www\.)?github\.com/([^/]+)/([^/]+)/(?:issues|pull)/(\d+)(?:[/?#].*)?$` }}
+{{- $result := false }}
+{{- with findRESubmatch $re . 1 }}
+  {{- $p := index . 0 }}
+  {{- $result = dict "owner" (index $p 1) "repo" (index $p 2) "number" (index $p 3) }}
+{{- end }}
+{{- return $result }}

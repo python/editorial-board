@@ -1,0 +1,19 @@
+{{- /* Renders a project's front matter fields. Context: a page in content/projects/. */ -}}
+{{- $statuses := dict "proposed" "Proposed" "active" "Active" "blocked" "Blocked" "done" "Done" }}
+{{- $status := partial "project_status.html" . }}
+
+{{- /* Issues, PRs, and other links are listed after the page body (project_refs.html). */}}
+
+<dl class="project-meta">
+  <dt>Status</dt>
+  <dd><span class="project-status project-status-{{ $status }}">{{ index $statuses $status }}</span></dd>
+  <dt>Lead</dt>
+  <dd>{{ with .Params.lead }}{{ . }}{{ else }}<em>Needs a committed lead</em>{{ end }}</dd>
+  <dt>Sponsor</dt>
+  <dd>{{ with .Params.sponsor }}{{ . }}{{ else }}<em>Needs an Editorial Board sponsor</em>{{ end }}</dd>
+  {{- with .Params.project_issue }}
+  <dt>Project issue</dt>
+  <dd>{{ partial "github_ref.html" (dict "url" . "title" "") }}</dd>
+  {{- end }}
+</dl>
+

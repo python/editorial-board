@@ -1,0 +1,124 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{ partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="post-content md-content">
+  {{- partial "anchored_headings.html" .Content }}
+
+  <h2 id="projects">Projects<a hidden class="anchor" aria-hidden="true" href="#projects">#</a></h2>
+
+  {{- $order := slice "active" "proposed" "blocked" "done" }}
+  {{- $titles := dict "active" "Active" "proposed" "Proposed" "blocked" "Blocked" "done" "Done" }}
+
+  {{- /* Fail the build on a missing or misspelled status rather than silently dropping the project. */}}
+  {{- range .RegularPages }}{{ $_ := partial "project_status.html" . }}{{ end }}
+
+  {{- if not .RegularPages }}
+  <p><em>None listed yet.</em></p>
+  {{- else }}
+  <div class="project-filter" hidden>
+    <label>
+      Search
+      <input type="search" id="project-search" placeholder="Title, summary, lead, or sponsor">
+    </label>
+    <label>
+      Status
+      <select id="project-status-filter">
+        <option value="">All</option>
+        {{- range $order }}
+        <option value="{{ . }}">{{ index $titles . }}</option>
+        {{- end }}
+      </select>
+    </label>
+    <p id="project-filter-count" class="project-filter-count" aria-live="polite"></p>
+    <p id="project-filter-empty" hidden><em>No projects match.</em></p>
+  </div>
+  {{- end }}
+
+  {{- with .RegularPages }}
+  <div class="project-table-wrap">
+  <table class="project-table">
+    <thead>
+      <tr>
+        <th scope="col">Project</th>
+        <th scope="col">Status</th>
+        <th scope="col">Lead</th>
+        <th scope="col">Sponsor</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{- /* Active first, then proposed, blocked, done; by weight within each status. */}}
+    {{- range $order }}
+      {{- $key := . }}
+      {{- range $.RegularPages.ByWeight }}
+        {{- if eq (partial "project_status.html" .) $key }}
+      <tr id="project-{{ .File.ContentBaseName }}" class="project-row"
+        data-status="{{ $key }}"
+        data-search="{{ delimit (slice .Title (.Params.summary | default "") (.Params.lead | default "") (.Params.sponsor | default "")) " " | lower }}">
+        <td>
+          <a class="project-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{- with .Params.summary }}<div class="project-row-summary">{{ . | markdownify }}</div>{{ end }}
+        </td>
+        <td><span class="project-status project-status-{{ $key }}">{{ index $titles $key }}</span></td>
+        <td>{{ with .Params.lead }}{{ . }}{{ else }}<em class="project-needed">Needed</em>{{ end }}</td>
+        <td>{{ with .Params.sponsor }}{{ . }}{{ else }}<em class="project-needed">Needed</em>{{ end }}</td>
+      </tr>
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    </tbody>
+  </table>
+  </div>
+  {{- end }}
+</div>
+
+<script>
+  (function () {
+    var filter = document.querySelector(".project-filter");
+    if (!filter) return;
+    filter.hidden = false;
+    var search = document.getElementById("project-search");
+    var status = document.getElementById("project-status-filter");
+    var empty = document.getElementById("project-filter-empty");
+    var params = new URLSearchParams(window.location.search);
+    search.value = params.get("q") || "";
+    status.value = params.get("status") || "";
+    if (status.selectedIndex < 0) status.value = "";
+
+    function apply() {
+      var q = search.value.trim().toLowerCase();
+      var shown = 0;
+      var rows = document.querySelectorAll(".project-row");
+      rows.forEach(function (row) {
+        var match =
+          (!q || row.dataset.search.indexOf(q) !== -1) &&
+          (!status.value || row.dataset.status === status.value);
+        row.hidden = !match;
+        if (match) shown++;
+      });
+      empty.hidden = shown !== 0;
+      document.getElementById("project-filter-count").textContent =
+        "Showing " + shown + " of " + rows.length + " project" + (rows.length === 1 ? "" : "s");
+      var table = document.querySelector(".project-table");
+      if (table) table.hidden = shown === 0;
+
+      // Keep the filter in the URL so a filtered view can be shared.
+      var next = new URLSearchParams();
+      if (search.value.trim()) next.set("q", search.value.trim());
+      if (status.value) next.set("status", status.value);
+      var qs = next.toString();
+      var url = window.location.pathname + (qs ? "?" + qs : "") + window.location.hash;
+      var current = window.location.pathname + window.location.search + window.location.hash;
+      if (url !== current) history.replaceState(null, "", url);
+    }
+
+    search.addEventListener("input", apply);
+    status.addEventListener("change", apply);
+    apply();
+  })();
+</script>
+
+{{- end }}{{/* end main */}}

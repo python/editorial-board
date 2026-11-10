@@ -37,3 +37,257 @@
 #members li:last-child:after {
     content: "";
 }
+.project-meta {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.25rem 1rem;
+  margin: 0.75rem 0 1.5rem;
+  font-size: 0.9em;
+}
+
+.project-meta dt {
+  font-weight: 600;
+}
+
+.project-meta dd {
+  margin: 0;
+}
+
+.project-status {
+  display: inline-block;
+  min-width: 5.5em;
+  padding: 0 0.5em;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.project-status-active { color: #1a7f37; }
+.project-status-proposed { color: #0969da; }
+.project-status-blocked { color: #bc4c00; }
+.project-status-done { color: #8250df; }
+
+[data-theme="dark"] .project-status-active { color: #3fb950; }
+[data-theme="dark"] .project-status-proposed { color: #4493f8; }
+[data-theme="dark"] .project-status-blocked { color: #db6d28; }
+[data-theme="dark"] .project-status-done { color: #ab7df8; }
+
+.project-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: end;
+  margin: 1rem 0 1.5rem;
+}
+
+.project-filter label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9em;
+}
+
+.project-filter input[type="search"],
+.project-filter select {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--entry);
+  color: var(--primary);
+  box-sizing: border-box;
+  width: 16rem;
+  max-width: 100%;
+  height: 2.25rem;
+  font: inherit;
+  font-size: 0.95em;
+  line-height: normal;
+}
+
+.project-filter #project-filter-empty,
+.project-filter #project-filter-count {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.project-meta a,
+.project-refs td a,
+.project-table a.project-title {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.project-meta a:hover,
+.project-refs td a:hover,
+.project-table a.project-title:hover {
+  text-decoration-thickness: 2px;
+}
+
+.project-table-wrap {
+  overflow-x: auto;
+}
+
+.post-content .project-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.md-content .project-table-wrap table.project-table th,
+.md-content .project-table-wrap table.project-table td {
+  padding: 0.6rem 0.75rem;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.md-content .project-table-wrap table.project-table th {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.md-content .project-table-wrap table.project-table td:not(:first-child) {
+  white-space: nowrap;
+}
+
+.project-table a.project-title {
+  font-weight: 600;
+}
+
+.project-row-summary {
+  margin-top: 0.25rem;
+  color: var(--secondary);
+  font-size: 0.9em;
+}
+
+.project-row-summary p {
+  margin: 0;
+}
+
+.project-needed {
+  color: var(--secondary);
+}
+
+.project-row:target {
+  background: var(--code-bg);
+}
+
+.gh-ref .gh-title {
+  color: var(--secondary);
+}
+
+.gh-state {
+  display: inline-block;
+  min-width: 5.5em;
+  margin-right: 0.4em;
+  padding: 0 0.5em;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.gh-state-open { color: #1a7f37; }
+.gh-state-merged,
+.gh-state-completed { color: #8250df; }
+.gh-state-closed { color: #cf222e; }
+.gh-state-draft,
+.gh-state-not-planned { color: #59636e; }
+
+[data-theme="dark"] .gh-state-open { color: #3fb950; }
+[data-theme="dark"] .gh-state-merged,
+[data-theme="dark"] .gh-state-completed { color: #ab7df8; }
+[data-theme="dark"] .gh-state-closed { color: #f85149; }
+[data-theme="dark"] .gh-state-draft,
+[data-theme="dark"] .gh-state-not-planned { color: #9198a1; }
+
+/* Smaller heading scale than PaperMod's defaults (40/32/24px), site-wide. */
+.page-header h1,
+.post-title {
+  font-size: 30px;
+}
+
+.md-content h1 {
+  margin: 32px auto 20px;
+  font-size: 28px;
+}
+
+.md-content h2 {
+  margin: 28px auto 16px;
+  font-size: 24px;
+}
+
+.md-content h3 {
+  margin: 24px auto 12px;
+  font-size: 20px;
+}
+
+.md-content h4 {
+  font-size: 18px;
+}
+
+.first-entry .entry-header h1 {
+  font-size: 30px;
+}
+
+.first-entry .entry-header h2 {
+  font-size: 30px;
+}
+
+.entry-header h2 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .page-header h1,
+  .post-title {
+    font-size: 26px;
+  }
+
+  .md-content h2 {
+    font-size: 22px;
+  }
+}
+
+.project-refs {
+  margin-top: 2rem;
+}
+
+.md-content .project-table-wrap table.gh-ref-table td:first-child {
+  width: 1%;
+}
+
+.md-content .project-table-wrap table.gh-ref-table td.gh-title {
+  white-space: normal;
+  color: var(--primary);
+}
+
+.gh-ref-table .gh-state {
+  margin-right: 0;
+}
+
+.project-filter input[type="search"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.md-content .project-table-wrap table.link-table td:first-child {
+  white-space: normal;
+}
+
+.md-content .project-table-wrap table.link-table td:last-child {
+  color: var(--secondary);
+}
+
+/* PaperMod has no [hidden] reset, so the display rules above would otherwise
+   override the hidden attribute. Scoped to the project elements: a global rule
+   would also hide PaperMod's heading anchors, which use hidden too. */
+.gh-state[hidden],
+.project-filter[hidden],
+.project-filter p[hidden],
+.project-table[hidden],
+.project-row[hidden] {
+  display: none;
+}

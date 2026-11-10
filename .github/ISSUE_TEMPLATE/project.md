@@ -7,6 +7,16 @@ assignees: ""
 
 ---
 
+<!--
+Alongside this issue, please open a pull request that adds a page for the project
+under content/projects/. See "Adding a project" for the fields to fill in:
+https://python.github.io/editorial-board/projects/how-to-add/
+-->
+
+## Project page
+
+(Link to the pull request that adds the project page.)
+
 ## Description
 
 (Give a complete description of the proposed documentation changes. Include specific steps. Break it down into tasks people can start working on.)
@@ -22,3 +32,7 @@ assignees: ""
 ## Challenges and risks
 
 (Enumerate some possible pitfalls that will need to be navigated.)
+
+## How to help
+
+(Concrete ways a contributor can get involved.)
