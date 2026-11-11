@@ -1,0 +1,153 @@
+/* Python look for the site: python.org's blue and yellow instead of
+   PaperMod's greys, the font stacks from python-docs-theme, and a wider page
+   than PaperMod's default. */
+
+:root {
+  /* Page width: PaperMod defaults are 720px (content) and 1024px (header). */
+  --main-width: 1080px;
+  --nav-width: 1080px;
+
+  /* python.org palette. */
+  --py-blue: #3776ab;
+  --py-blue-dark: #306998;
+  --py-blue-deep: #2b5b84;
+  --py-yellow: #ffd43b;
+
+  /* Fonts from python-docs-theme. */
+  --py-font: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  --py-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+
+  /* PaperMod's color variables, tinted blue and yellow instead of grey. */
+  --theme: #fff;
+  --entry: #fff;
+  --primary: #1d2733;
+  --secondary: #4a5b6c;
+  --tertiary: #eaf2fa;
+  --content: #1d2733;
+  --code-bg: #fff6d5;
+  --border: #cfe0ef;
+
+  --py-link: var(--py-blue-dark);
+  --py-link-visited: #6363bb;
+  --py-link-hover: var(--py-blue-deep);
+  --py-header-bg: #13263d;
+  --py-header-text: #fff;
+}
+
+:root[data-theme="dark"] {
+  --theme: #15202c;
+  --entry: #1b2836;
+  --primary: rgba(255, 255, 255, 0.9);
+  --secondary: #a9bacb;
+  --tertiary: #243649;
+  --content: rgba(255, 255, 255, 0.87);
+  --code-bg: #3a3320;
+  --border: #2f4560;
+
+  --py-link: #8cc4ff;
+  --py-link-visited: #c3a6ff;
+  --py-link-hover: var(--py-yellow);
+  --py-header-bg: #0f1822;
+  --py-header-text: rgba(255, 255, 255, 0.92);
+}
+
+body {
+  font-family: var(--py-font);
+}
+
+code,
+pre,
+kbd,
+tt {
+  font-family: var(--py-mono);
+}
+
+/* PaperMod gives list pages (home, Monthly Updates, Projects, ...) a grey
+   background; use the plain page color instead. */
+.list,
+[data-theme="dark"] .list {
+  background: var(--theme);
+}
+
+/* Header: a deep navy bar with a yellow rule. Navy rather than Python blue,
+   so the blue in the logo stays visible. */
+.header {
+  background: var(--py-header-bg);
+  border-bottom: 4px solid var(--py-yellow);
+}
+
+.header .logo a,
+.header #menu a,
+.header .theme-toggle,
+.header .logo-switches {
+  color: var(--py-header-text);
+}
+
+.header #menu .active,
+.header #menu a:hover {
+  color: var(--py-yellow);
+}
+
+/* Cards on the home page and in lists: yellow left edge, blue on hover. */
+.post-entry {
+  border-left: 4px solid var(--py-yellow);
+}
+
+.post-entry:hover,
+.post-entry:focus-within {
+  border-color: var(--py-blue);
+  border-left-color: var(--py-yellow);
+}
+
+/* Links in page content. */
+.md-content a,
+.post-content a,
+.project-meta a,
+.project-refs td a,
+.project-table a.project-title,
+.entry-content a {
+  color: var(--py-link);
+  box-shadow: none;
+  text-decoration: underline 1px;
+  text-underline-offset: 0.15em;
+}
+
+.md-content a:visited,
+.post-content a:visited,
+.project-meta a:visited,
+.project-refs td a:visited,
+.project-table a.project-title:visited {
+  color: var(--py-link-visited);
+}
+
+.md-content a:hover,
+.post-content a:hover,
+.project-meta a:hover,
+.project-refs td a:hover,
+.project-table a.project-title:hover {
+  color: var(--py-link-hover);
+}
+
+/* Heading anchors keep a muted color, like a.headerlink in the docs. */
+.md-content a.anchor {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+/* Table header cells in light blue, with dark blue text. */
+.md-content table th,
+.md-content .project-table-wrap table.project-table th {
+  background: var(--tertiary);
+  color: var(--primary);
+}
+
+/* Horizontal rules in the pale blue border color. */
+.md-content hr {
+  background: var(--border);
+}
+
+/* Blockquotes: a Python blue bar instead of PaperMod's near-black one. */
+.md-content blockquote {
+  border-inline-start-color: var(--py-blue);
+}
