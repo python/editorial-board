@@ -42,6 +42,18 @@ params:
   ShowPageNums: true
   ShowToc: true
 
+  # Python logo (from python-docs-theme) in the header and as the favicon.
+  # The PNG favicons and apple-touch-icon.png in static/ use PaperMod's
+  # default file names, so they need no setting here.
+  label:
+    icon: "py.svg"
+    iconHeight: 24
+  assets:
+    favicon: "py.svg"
+
+  # Default image for link previews (Open Graph and Twitter cards).
+  images: ["og-image.png"]
+
   homeInfoParams:
     Title: "Python Docs Editorial Board"
     Content: |
