@@ -32,6 +32,7 @@ people to carry it out.
 Want to help with a project, or propose a new one? Open an
 [issue on this repo](https://github.com/python/editorial-board/issues/new/choose)
 or reach out in the [Python Docs Discord](https://discord.gg/nXkJ2JYvCu).
+To propose a project, see [Adding a project](#project-template).
 
 To hear about new projects, subscribe to the
 [projects RSS feed]({{< relref "projects" >}}index.xml).
