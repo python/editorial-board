@@ -27,6 +27,31 @@ people to carry it out.
 - **We keep the list short and prioritized** rather than long and
   aspirational, so we can give each project real oversight.
 
+## What to expect from a sponsor {#what-to-expect}
+
+This approach is new, and we are still learning how much support we can give and
+how much projects need. For now, the door is wide open to proposals, including
+for work that is already underway.
+
+What a sponsor can offer:
+
+- **Help with decisions.** A sponsor can consult on the decisions a project runs
+  into, and help reach them.
+- **Approvals that unblock consensus.** When a change is stuck because nobody
+  feels able to say yes, an approval from the board can help move it forward.
+- **Hands-on help, sometimes.** Board members are active docs contributors and
+  may be able to help with the writing or reviewing, but that isn't the focus
+  of sponsorship.
+
+What we can't promise:
+
+- **More reviewers.** Large changes are hard to get reviewed, and we know there
+  is a queue. The Editorial Board doesn't have a better way to find reviewers than the
+  [Documentation Community](https://github.com/python/docs-community) does.
+
+If something other than a lack of reviewers is holding up documentation work,
+let us know. Questions like these help us shape how sponsorship works.
+
 Want to help with a project, or propose a new one? Open an
 [issue on this repo](https://github.com/python/editorial-board/issues/new/choose)
 or reach out in the [Python Docs Discord](https://discord.gg/nXkJ2JYvCu).
