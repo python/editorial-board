@@ -51,6 +51,11 @@ Better syntax docs that match current Python.
 
 ## How to help
 
+To help, you can review open pull requests (linked to
+[issue #141984](https://github.com/python/cpython/issues/141984)),
+and/or join weekly livestreams at the
+[Python Docs Discord](https://discord.gg/ED65xD8WRg).
+
 The lead is not looking for people to take this on, since reviewing would be
 as hard as writing. Feedback on the direction and style is welcome. The work
 happens on weekly livestreams: see the
