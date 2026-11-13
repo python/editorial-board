@@ -39,6 +39,8 @@ To hear about new projects, subscribe to the
 
 ## What to expect from a sponsor {#what-to-expect}
 
+Sponsorship is optional: not every project needs an Editorial Board sponsor.
+
 This approach is new, and we are still learning how much support we can give and
 how much projects need. For now, the door is wide open to proposals.
 
