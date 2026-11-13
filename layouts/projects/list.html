@@ -13,8 +13,8 @@
   {{- $order := slice "active" "proposed" "blocked" "done" }}
   {{- $titles := dict "active" "Active" "proposed" "Proposed" "blocked" "Blocked" "done" "Done" }}
 
-  {{- /* Fail the build on a missing or misspelled status rather than silently dropping the project. */}}
-  {{- range .RegularPages }}{{ $_ := partial "project_status.html" . }}{{ end }}
+  {{- /* Fail the build on a missing or misspelled status or an invalid needs_sponsor value rather than silently misrendering the project. */}}
+  {{- range .RegularPages }}{{ $_ := partial "project_status.html" . }}{{ $_ := partial "project_needs_sponsor.html" . }}{{ end }}
 
   {{- if not .RegularPages }}
   <p><em>None listed yet.</em></p>
@@ -64,7 +64,11 @@
         </td>
         <td><span class="project-status project-status-{{ $key }}">{{ index $titles $key }}</span></td>
         <td>{{ with .Params.lead }}{{ . }}{{ else }}<em class="project-needed">Needed</em>{{ end }}</td>
-        <td>{{ with .Params.sponsor }}{{ . }}{{ else }}<em class="project-needed">Needed</em>{{ end }}</td>
+        <td>
+          {{- with .Params.sponsor }}{{ . }}
+          {{- else }}{{ if not (partial "project_needs_sponsor.html" .) }}Not needed
+          {{- else }}<em class="project-needed">Needed</em>{{ end }}{{ end -}}
+        </td>
       </tr>
         {{- end }}
       {{- end }}

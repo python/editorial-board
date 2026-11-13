@@ -47,7 +47,8 @@ The file name becomes the project page's URL, so keep it short and descriptive.
 | `date` | yes | The date the project was added to the list, for example `2026-11-10`. Used to order the projects RSS feed. |
 | `status` | yes | One of `proposed`, `active`, `blocked`, or `done`. Any other value fails the build. See [Statuses](#statuses). |
 | `lead` | for `active` | The person actively leading the work. Leave empty if there is no lead yet; the page shows "Needs a committed lead". |
-| `sponsor` | no | The Editorial Board member sponsoring the project. Leave empty if none yet. |
+| `sponsor` | no | The Editorial Board member sponsoring the project. Leave empty if none yet; the list shows "Needed" and the page shows "Needs an Editorial Board sponsor". |
+| `needs_sponsor` | no | Set to `false` for a project that does not need an Editorial Board sponsor; with `sponsor` empty, the list and the page show "Not needed". Write it without quotes: any value other than `true` or `false` fails the build. Defaults to `true`. |
 | `summary` | yes | One or two sentences on what the project delivers. Shown in the project list. |
 | `project_issue` | no | Link to the project issue: the issue that fully describes the project, usually the one opened with the "Suggest a project" template. |
 | `weight` | no | Rough priority. The list shows active projects first, then proposed, blocked, and done; within each status, lower numbers are listed first. |
