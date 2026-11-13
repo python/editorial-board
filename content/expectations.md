@@ -24,11 +24,11 @@ PEP but instead records how the board chooses to work within it.
 
 The board considered three possible stances for how members spend their time:
 
-1. **Reactive** — be available to make big decisions when asked (act like a
+1. **Reactive**: be available to make big decisions when asked (act like a
    "Steering Council for docs").
-2. **Hands-on** — start and personally carry out significant work (closer to a
+2. **Hands-on**: start and personally carry out significant work (closer to a
    core-team contributor role than a council role).
-3. **Proactive** — identify big documentation projects, reach out to find
+3. **Proactive**: identify big documentation projects, reach out to find
    people to do the work, and lead/shepherd those efforts.
 
 **We have chosen to focus on stance 3.** Rather than waiting for issues to be escalated to
@@ -36,7 +36,7 @@ us, the board will actively identify significant documentation work, find and
 support contributors to take it on, and either sponsor or project-manage those efforts to
 completion.
 
-We remain available for the reactive decision-making in stance 1 — when the
+We remain available for the reactive decision-making in stance 1: when the
 community needs the board to make a big-picture or tie-breaking decision about
 the docs, we are here to do so. In practice, though, this has rarely been
 needed: most documentation questions resolve without the board having to step
@@ -46,7 +46,7 @@ work described above.
 What this means in practice:
 
 - We maintain a [list of projects]({{< relref "projects" >}}) that we believe are worth doing.
-- A project is listed only if it is desirable, has been realistically scoped, and major decisions have been made. Not every project needs an EB sponsor. If one is needed but not yet identified, one will be found before the project is started. The projects are ready for someone to start working on them; they have been concretely scoped out.
+- A project is listed only if it is desirable, has been realistically scoped, and major decisions have been made. Not every project needs an Editorial Board (EB) sponsor. If a project needs one and does not have one yet, we will find one before the project starts. The projects are ready for someone to start working on them; they have been concretely scoped out.
 - Each project is described with enough detail to be actionable, including the
   challenges and risks involved, not just the desired outcome.
 - We hold ourselves to overseeing these efforts, not merely naming them. We are committed to supporting the docs community in finishing them.
