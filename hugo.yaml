@@ -11,7 +11,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["updates"]
+mainsections: ["updates", "projects"]
 
 minify:
   disableXML: true
@@ -56,12 +56,14 @@ params:
 
   homeInfoParams:
     Title: "Python Docs Editorial Board"
-    Content: >
+    Content: |
      This site contains activity updates, process, and planning information for the Python Documentation Editorial Board.
       
      See [PEP 732](https://peps.python.org/pep-0732/).
       
      The Editorial Board's private meetings are monthly on the second Tuesday at 1:30pm Pacific.
+
+     We maintain a [list of documentation projects](projects/) that we lead or shepherd. To propose a project, see [Adding a project](projects/how-to-add/).
 
      If you have a general request or question, please use the [Documentation category in Discourse](https://discuss.python.org/c/documentation/26).
 

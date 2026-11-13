@@ -29,6 +29,10 @@
     {{- end }}
   </header>
   {{- partial "members.html" . }}
+  {{- if eq .Section "projects" }}
+  {{- with .Params.summary }}<div class="project-summary">{{ . | markdownify }}</div>{{ end }}
+  {{- partial "project_meta.html" . }}
+  {{- end }}
 
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
@@ -42,6 +46,9 @@
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}in content{{ .Content }}{{ end }}
   </div>
+  {{- end }}
+  {{- if eq .Section "projects" }}
+  {{- partial "project_refs.html" . }}
   {{- end }}
 
   <footer class="post-footer">

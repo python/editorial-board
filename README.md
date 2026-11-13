@@ -71,6 +71,16 @@ pixi run serve
 
 Use `pixi run build` to build the production site into `public/`.
 
+## Adding a project
+
+The [Projects page](https://python.github.io/editorial-board/projects/) is built from one Markdown
+file per project under ``content/projects/``, using the template in
+[archetypes/projects.md](archetypes/projects.md).
+
+See [Adding a project](https://python.github.io/editorial-board/projects/how-to-add/) on the site
+for how to propose a project, the frontmatter fields, and how the project page is laid out.
+Its source is [content/adding-a-project.md](content/adding-a-project.md).
+
 ## Writing new changelog
 
 Use the template in [archetypes/changelog.md](archetypes/changelog.md).

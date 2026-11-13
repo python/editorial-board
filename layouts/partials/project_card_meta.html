@@ -1,0 +1,18 @@
+{{- /*
+  Meta line for a project card in lists such as the home page, in the same
+  style as PaperMod's post_meta.html: date, lead, and status.
+  Context: a page in content/projects/.
+*/ -}}
+{{- $statuses := dict "proposed" "Proposed" "active" "Active" "blocked" "Blocked" "done" "Done" }}
+{{- $status := partial "project_status.html" . }}
+{{- $meta := slice }}
+{{- if not .Date.IsZero }}
+  {{- $meta = $meta | append (printf "<span title='%s'>%s</span>" .Date (.Date | time.Format (default ":date_long" site.Params.DateFormat))) }}
+{{- end }}
+{{- with .Params.lead }}
+  {{- $meta = $meta | append (printf "<span>Lead: %s</span>" (. | htmlEscape)) }}
+{{- else }}
+  {{- $meta = $meta | append "<span>Needs a lead</span>" }}
+{{- end }}
+{{- $meta = $meta | append (printf "<span class=\"project-status project-status-%s\">%s</span>" $status (index $statuses $status)) }}
+{{- delimit $meta "&nbsp;·&nbsp;" | safeHTML -}}

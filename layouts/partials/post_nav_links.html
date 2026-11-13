@@ -1,0 +1,21 @@
+{{- /* Copy of PaperMod's layouts/_partials/post_nav_links.html (module version
+   v0.0.0-20260510052646-154d006e0182). Changed: prev/next stay within the
+   page's own section, so meeting notes don't link to projects now that both
+   are in mainSections. */ -}}
+{{- $pages := where (where site.RegularPages "Type" "in" site.Params.mainSections) "Section" .Section }}
+{{- if and (gt (len $pages) 1) (in $pages . ) }}
+<nav class="paginav">
+  {{- with $pages.Next . }}
+  <a class="prev" href="{{ .Permalink }}">
+    <span class="title">« {{ i18n "prev_page" }}</span>
+    <span>{{- .Name -}}</span>
+  </a>
+  {{- end }}
+  {{- with $pages.Prev . }}
+  <a class="next" href="{{ .Permalink }}">
+    <span class="title">{{ i18n "next_page" }} »</span>
+    <span>{{- .Name -}}</span>
+  </a>
+  {{- end }}
+</nav>
+{{- end }}

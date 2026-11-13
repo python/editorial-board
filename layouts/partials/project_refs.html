@@ -1,0 +1,108 @@
+{{- /*
+  "Issues and pull requests" section of a project page: every GitHub issue or
+  PR URL in the `links` front matter, as a table with a live status badge.
+  Also loads the script that fills in the badges, including the project issue's.
+  Context: a page in content/projects/.
+*/ -}}
+{{- $refs := slice }}
+{{- $other := slice }}
+{{- range .Params.links }}
+  {{- if not .url }}
+    {{- warnf "%s: a links entry has no url" $.File.Path }}
+  {{- else if partial "github_parse.html" .url }}
+    {{- $refs = $refs | append . }}
+  {{- else }}
+    {{- $other = $other | append . }}
+  {{- end }}
+{{- end }}
+
+{{- with $refs }}
+<div class="post-content md-content project-refs">
+  <h2 id="project-issues-and-prs">Issues and pull requests<a hidden class="anchor" aria-hidden="true" href="#project-issues-and-prs">#</a></h2>
+  <div class="project-table-wrap">
+  <table class="project-table gh-ref-table">
+    <thead>
+      <tr>
+        <th scope="col">Status</th>
+        <th scope="col">Issue or PR</th>
+        <th scope="col">Title</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{- range . }}
+      {{- $gh := partial "github_parse.html" .url }}
+      {{- $owner := $gh.owner }}{{ $repo := $gh.repo }}{{ $num := $gh.number }}
+      <tr class="gh-ref" data-gh-api="https://api.github.com/repos/{{ $owner }}/{{ $repo }}/issues/{{ $num }}">
+        <td><span class="gh-state" hidden></span></td>
+        <td><a href="{{ .url }}">{{ $owner }}/{{ $repo }}#{{ $num }}</a></td>
+        {{- with .title }}
+        <td class="gh-title">{{ . }}</td>
+        {{- else }}
+        <td class="gh-title" data-gh-fill></td>
+        {{- end }}
+      </tr>
+    {{- end }}
+    </tbody>
+  </table>
+  </div>
+</div>
+{{- end }}
+
+{{- with $other }}
+<div class="post-content md-content project-refs">
+  <h2 id="project-links">Links<a hidden class="anchor" aria-hidden="true" href="#project-links">#</a></h2>
+  <div class="project-table-wrap">
+  <table class="project-table link-table">
+    <thead>
+      <tr>
+        <th scope="col">Link</th>
+        <th scope="col">Site</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{- range . }}
+      <tr>
+        <td><a href="{{ .url }}">{{ .title | default .url }}</a></td>
+        <td>{{ (urls.Parse .url).Host | strings.TrimPrefix "www." }}</td>
+      </tr>
+    {{- end }}
+    </tbody>
+  </table>
+  </div>
+</div>
+{{- end }}
+
+{{- if or .Params.project_issue $refs }}
+<script>
+  /* Fill in the status of GitHub issues and PRs. If GitHub can't be reached
+     (offline, rate limited), the plain links are left as they are. */
+  (function () {
+    var refs = document.querySelectorAll(".gh-ref[data-gh-api]");
+    var cache = {};
+    function label(d) {
+      if (d.pull_request) {
+        if (d.pull_request.merged_at) return ["merged", "Merged"];
+        if (d.state === "open") return d.draft ? ["draft", "Draft"] : ["open", "Open"];
+        return ["closed", "Closed"];
+      }
+      if (d.state === "open") return ["open", "Open"];
+      if (d.state_reason === "not_planned") return ["not-planned", "Not planned"];
+      return ["completed", "Closed"];
+    }
+    refs.forEach(function (ref) {
+      var url = ref.dataset.ghApi;
+      cache[url] = cache[url] || fetch(url, { headers: { Accept: "application/vnd.github+json" } })
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+      cache[url].then(function (d) {
+        var l = label(d);
+        var badge = ref.querySelector(".gh-state");
+        badge.textContent = l[1];
+        badge.className = "gh-state gh-state-" + l[0];
+        badge.hidden = false;
+        var fill = ref.querySelector("[data-gh-fill]");
+        if (fill && !fill.textContent) fill.textContent = d.title;
+      }).catch(function () {});
+    });
+  })();
+</script>
+{{- end }}
