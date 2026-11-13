@@ -58,5 +58,4 @@ and/or join weekly livestreams at the
 
 The lead is not looking for people to take this on, since reviewing would be
 as hard as writing. Feedback on the direction and style is welcome. The work
-happens on weekly livestreams: see the
-[Python Docs Discord](https://discord.gg/nXkJ2JYvCu).
+happens on weekly livestreams.
