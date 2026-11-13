@@ -6,6 +6,8 @@ date: "{{ .Date }}"
 status: "proposed"
 # Editorial Board member sponsoring the project. Leave empty if none yet.
 sponsor: ""
+# Set to false if the project does not need an Editorial Board sponsor.
+needs_sponsor: true
 # Person actively leading the work. Leave empty if none yet.
 # An active project must have a lead.
 lead: ""

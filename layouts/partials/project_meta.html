@@ -10,7 +10,11 @@
   <dt>Lead</dt>
   <dd>{{ with .Params.lead }}{{ . }}{{ else }}<em>Needs a committed lead</em>{{ end }}</dd>
   <dt>Sponsor</dt>
-  <dd>{{ with .Params.sponsor }}{{ . }}{{ else }}<em>Needs an Editorial Board sponsor</em>{{ end }}</dd>
+  <dd>
+    {{- with .Params.sponsor }}{{ . }}
+    {{- else }}{{ if not (partial "project_needs_sponsor.html" .) }}Not needed
+    {{- else }}<em>Needs an Editorial Board sponsor</em>{{ end }}{{ end -}}
+  </dd>
   {{- with .Params.project_issue }}
   <dt>Project issue</dt>
   <dd>{{ partial "github_ref.html" (dict "url" . "title" "") }}</dd>
