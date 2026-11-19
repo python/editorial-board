@@ -1,0 +1,14 @@
+{{- /*
+  Returns whether a project needs an Editorial Board sponsor: the needs_sponsor
+  front matter value, true when omitted. Fails the build on a value that is not
+  an unquoted true or false. Context: a page in content/projects/.
+*/ -}}
+{{- $needs := true }}
+{{- if isset .Params "needs_sponsor" }}
+  {{- $v := index .Params "needs_sponsor" }}
+  {{- if ne (printf "%T" $v) "bool" }}
+    {{- errorf "%s: needs_sponsor must be true or false without quotes, got %v (%T)" .File.Path $v $v }}
+  {{- end }}
+  {{- $needs = $v }}
+{{- end }}
+{{- return $needs }}

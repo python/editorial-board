@@ -3,6 +3,7 @@ title: "Improve syntax documentation"
 date: "2026-11-10"
 status: "active"
 sponsor: ""
+needs_sponsor: false
 lead: "Petr Viktorin"
 summary: "Reword the syntax chapters of the Python Language Reference to match current Python: an overview and common uses first, then increasingly complex details, ending with the formal grammar."
 project_issue: "https://github.com/python/editorial-board/issues/48"
