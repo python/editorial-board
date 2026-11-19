@@ -27,12 +27,41 @@ people to carry it out.
 - **We keep the list short and prioritized** rather than long and
   aspirational, so we can give each project real oversight.
 
+## Get involved
+
 Want to help with a project, or propose a new one? Open an
 [issue on this repo](https://github.com/python/editorial-board/issues/new/choose)
 or reach out in the [Python Docs Discord](https://discord.gg/nXkJ2JYvCu).
+To propose a project, see [Adding a project](#project-template).
 
 To hear about new projects, subscribe to the
 [projects RSS feed]({{< relref "projects" >}}index.xml).
+
+## What to expect from a sponsor {#what-to-expect}
+
+Sponsorship is optional: not every project needs an Editorial Board sponsor.
+
+This sponsorship approach is new, and we are still learning how much support we can give and
+how much projects need. For now, the door is wide open to proposals.
+
+What a sponsor can offer:
+
+- **Help with decisions.** A sponsor can consult on the decisions a project runs
+  into.
+- **Approvals that unblock consensus.** When a change is stuck because nobody
+  feels able to say yes, an approval from the sponsor can help move it forward.
+- **Hands-on help, sometimes.** A sponsor may be able to help with the writing
+  or reviewing, but that isn't the focus of sponsorship.
+
+What we can't promise:
+
+- **More reviewers.** We know there is a review queue. The Editorial Board
+  doesn't have a better way to find reviewers than the
+  [Documentation Working Group](https://github.com/python/docs-community) does.
+
+If something other than a lack of reviewers is holding up documentation work,
+let us know in an issue or on Discord. Hearing about these blockers helps us
+shape how sponsorship works.
 
 ## Adding a project {#project-template}
 

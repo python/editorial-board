@@ -9,7 +9,8 @@ ShowPostNavLinks: false
 ---
 
 This page explains how a project gets onto the [project list]({{< relref "projects" >}}),
-and how to write its page.
+and how to write its page. For the kind of support a project can expect,
+see [What to expect from a sponsor]({{< relref "projects#what-to-expect" >}}).
 
 ## From idea to project page
 
